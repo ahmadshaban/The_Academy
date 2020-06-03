@@ -394,7 +394,7 @@ h3 {
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
-  min-height: 1000px;
+  min-height: 600px;
 }
 
 .section-of .rgba-h2 {
@@ -518,7 +518,7 @@ h3 {
 }
 
 #contact .form-control:hover {
-  box-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 10px 20px #ff6f61 !important;
+  box-shadow: 0 0 10px #c4b70a, 0 0 20px #b8d805, 0 10px 20px #ff6f61 !important;
   background-color: yellow;
 }
 
@@ -531,7 +531,7 @@ h3 {
 }
 
 #contact button:hover {
-  box-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 10px 20px #ff6f61;
+  box-shadow: 0 0 10px #c4b70a, 0 0 20px #b8d805, 0 10px 20px #ff6f61 !important;
   background-color: yellow;
 }
 
@@ -616,20 +616,19 @@ h3 {
   min-height: 500px;
   position: relative;
   margin: 0 auto;
-  color:goldenrod !important;
 
 }
 /* start footer */
 .btn-floating {
   font-size: 30px !important;
   font-size: 40px !important;
+  
 
 }
 .rgba-1{
   position: absolute;
   width: 100%;
  height: 100%;
-  background-color:var(--background-color);
   background-color: rgba(0, 0, 0, .7);
 }
 .btn-floating :hover {
@@ -646,11 +645,10 @@ transition: .5s all;
 .icon-footer ,.footer-copyright{
   position: relative;
   color:goldenrod !important;
-
 }
 
 .sec-signin h2 , h3 ,h4, h5, p  , li , i ,a {
-  color:goldenrod !important;
+  color:#ffbe0b !important;
 
 }
 /* end-style-footer */
@@ -1230,7 +1228,7 @@ table {
 }
 
 .collapsible-section-header {
-  background-color: #309c6a;
+  background-color:var(--sections-color);
 }
 
 .collapsible-section-header a {
@@ -1251,7 +1249,7 @@ table {
 
 tbody td {
   background-color: #7498b6;
-  border: 1px solid #240f99;
+  border: 1px solid white;
   padding: 1.25rem;
 }
 
@@ -1272,7 +1270,6 @@ tbody td {
   position: fixed;
   z-index: 9999999999999999999999;
 }
-
 .load h3 {
   color: var(--main-color);
   position: absolute;
@@ -1280,6 +1277,8 @@ tbody td {
   bottom: 30%;
   left: 45%;
   text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .container-2 {
