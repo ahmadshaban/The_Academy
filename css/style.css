@@ -53,6 +53,7 @@ body {
   background-color: #2d343f !important;
   text-align: center;
   font-size: 20px !important;
+  top:0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
