@@ -20,7 +20,11 @@
   --font-color: goldenrod;
   --background-color:rgba(0, 0, 0, 0.5);
 }
-
+@media (max-width:768px) {
+  body{
+    padding:5px;
+  }
+}
 * {
   scroll-behavior: smooth !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -275,15 +279,27 @@ h3 {
           start style section information  
 =========================================================================
 */
+@media(max-width: 768px){
+  .section-information-univerisrty h1 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .section-information-univerisrty .container{
+    width: 85% !important;
+    margin: 0 auto !important;
+  }
+  .section-information-univerisrty .div-row .card{
+    padding: 20px;
+  }
+}
 
 .section-information-univerisrty {
   color: var(--font-color);
   padding: 3% 0 5% 0;
 }
-
 .section-information-univerisrty h1 {
   padding: 2% 0 0% 0;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bolder;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Geneva, Tahoma, sans-serif;
 }
@@ -297,10 +313,9 @@ h3 {
   box-shadow: 20px 20px 50px #000000;
   margin-bottom: 30px;
   border-radius: 2%;
-  width: 100%;
+  width: 98%;
   min-height: 300px;
 }
-
 /*  END-CONTAINER IMAGE AND title  */
 /* START STYLE ROW2 CARDS */
 .section-information-univerisrty .div-row {
@@ -313,7 +328,6 @@ h3 {
   box-shadow: 1px 2px 50px #000000;
   border-radius: 2%;
 }
-
 /* END-STYLE ROW2 CARDS */
 .section-information-univerisrty .div-row .card {
   position: relative;
@@ -325,20 +339,18 @@ h3 {
   min-width: 29%;
   min-height: 60% !important;
   height: 100%;
-  transition: 1s all;
+  transition:.5s all;
   overflow: hidden;
   border: solid var(--main-color) 1px;
 }
 
 /* STATY STYLE HOVER ON CARD */
 .section-information-univerisrty .row .card:hover {
-  border: rgb(10, 9, 9) solid 2px;
+  border: rgb(10, 9, 9) solid 1px;
   opacity: .9;
-  color: white !important;
+  color: white!important;
 }
-
 /* END */
-
 /* START STYLE HOVER ON ICON  */
 .icon {
   border-radius: 30%;
@@ -361,28 +373,22 @@ h3 {
 }
 
 .section-information-univerisrty .div-row .card:hover .icon {
-
   box-shadow: 0 0 0 400px #21618C;
 }
-
-/* START STYLE HOVER ON ICON  */
+/* END-STYLE HOVER ON ICON  */
 
 /* START STYLE IMAGE IN ROW  */
 .section-information-univerisrty .row-1 img {
   width: 60%;
   padding-bottom: 4%;
 }
-
-/* START STYLE IMAGE IN ROW  */
-
+/* END-STYLE IMAGE IN ROW  */
 
 /*
 =========================================================================
           end style section information  
  * ======================================================================
 */
-
-
 
 /*
 =========================================================================
@@ -415,6 +421,18 @@ h3 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Geneva, Tahoma, sans-serif;
 }
 
+
+@media (max-width:768px) {
+  .section-of .rgba-h2 h2{
+    font-size:20px !important;
+    }
+    .section-of .rgba-h2{
+      width: 98%;
+    }
+    .section-of .row{
+      padding: 25px !important;
+    }
+}
 .section-of .card {
   border-radius: 10%;
   background-color: rgba(0, 0, 0, 0.2) !important;
@@ -425,9 +443,7 @@ h3 {
   transition: all 1s;
   overflow: hidden;
   border: #C8344A solid .5px;
-
 }
-
 .section-of .row {
   background-color: #282828;
   justify-items: center !important;
@@ -483,24 +499,29 @@ h3 {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 5%;
 }
-
 #contact h3 {
   margin: auto;
   margin-bottom: 5%;
 }
-
 #contact h4 {
   color: var(--font-color);
   font-size: 40px;
   width: 50%;
   margin: auto;
 }
-
 #contact .row .iframe {
-  margin: 0 auto;
+width: 95%;
+  margin: 0 auto!important;
   box-sizing: var(--box-shadow);
   background-color: var(--sections-color);
 }
+@media (max-width:768px) {
+  #contact .row .iframe{
+    width: 90%;
+    margin: 0 auto !important;
+  }
+}
+
 
 #contact .Inquiry-form {
   background-color: var(--sections-color);
@@ -512,12 +533,21 @@ h3 {
   padding: 3%;
   border-radius: 3%;
 }
-
+@media (max-width:768px){
+  #contact .Inquiry-form h4{
+    font-size: 20px;
+  }
+}
 #contact .form-control {
   text-align: center;
   border-radius: 5%;
 }
-
+@media (max-width:768px){
+  #contact .form-control{
+    width: 90% !important;
+    margin: 0 auto;
+  }
+}
 #contact .form-control:hover {
   box-shadow: 0 0 10px #c4b70a, 0 0 20px #b8d805, 0 10px 20px #ff6f61 !important;
   background-color: yellow;
@@ -541,11 +571,9 @@ h3 {
                   end style contact and map 
 =======================================================================
 */
-
 .border-md {
   border-width: 2px;
 }
-
 .btn-facebook {
   background: #405D9D;
   border: none;
@@ -555,18 +583,14 @@ h3 {
 .btn-facebook:focus {
   background: #314879;
 }
-
 .btn-twitter {
   background: #42AEEC;
   border: none;
 }
-
 .btn-twitter:hover,
 .btn-twitter:focus {
   background: #1799e4;
 }
-
-
 
 /*  
 ==========================================
@@ -580,16 +604,24 @@ h3 {
   padding: 50px;
 
 }
-
 .sign-in .container {
-
-  padding: 5%;
+  padding: 2%;
   background-color: var(--sections-color);
   box-shadow: var(--box-shadow);
   border-radius: 3%;
   color: goldenrod;
+  width: 100%;
+}
+@media (max-width:768px){
+.sign-in .container h2{
+    font-size: 20px !important;
+  }
+  .sign-in .container{
+    width: 100%;
+  }
 }
 
+#contact .form-control
 .page-footer {
   color: white;
 }
@@ -603,7 +635,6 @@ h3 {
              end sign-in 
 ==========================================
 */
-
 
 /* start style-footer */
 .sec-signin {
