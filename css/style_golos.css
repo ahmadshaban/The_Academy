@@ -1,0 +1,200 @@
+/** background: linear-gradient(5deg,yellow 50%,  yellowgreen 50%); **/
+/* background: linear-gradient(125deg, rgb(141, 14, 173), rgb(64, 189, 14), rgb(190, 223, 4), #573E8A); */
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth !important;
+  box-sizing: border-box !important;
+}
+
+body {
+  background-color:#55a368 !important;
+
+  width: 100% !important;
+  background-attachment: fixed;
+  box-sizing: border-box !important;
+  direction: rtl;
+  overflow-x: hidden;
+  font-family: 'Markazi Text', serif;
+  font-size: 20px;
+  text-align: center;
+  scroll-behavior: smooth !important;
+
+}
+
+
+
+
+/*  
+ ====================================================================
+                  start style navbar 
+ ======================================================================
+*/
+.navbar {
+  color: aliceblue !important;
+  background-color: rgba(0, 0, 0, .8) !important;
+  text-align: center;
+  border-bottom: 1px solid white;
+
+}
+
+.dropdown-menu {
+  text-align: center;
+  direction: initial;
+  border: none;
+
+}
+
+.collapse {
+  width: 100%;
+}
+
+.navbar-nav .nav-item :hover {
+  color: #1e90ff !important;
+
+
+
+}
+
+.navbar .nav-item {
+
+  padding: 0px 2px 2px 0;
+  margin: 3px;
+}
+
+@media screen and (min-width: 992px) {
+
+  /* makes the dropdown full width  */
+  /* .navbar .dropdown {position:static;} */
+
+  .navbar .dropdown-menu {
+    background-color: rgba(0, 0, 0, .8) !important;
+    direction: rtl;
+    width: 60%;
+    height: auto;
+    left: 0;
+    right: 0;
+    /*  height of nav-item  */
+    top: 45px;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: white !important;
+  }
+
+  .navbar .dropdown:hover .dropdown-menu,
+  .navbar .dropdown .dropdown-menu:hover {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+}
+
+/* class scrol navbar  */
+.ahmad {
+  background-color: #57606f !important;
+  position: relative;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 200000;
+  transition: all 3s;
+}
+
+/*  
+ ====================================================================
+                 end  style navbar 
+ ======================================================================
+*/
+
+
+
+
+
+  /* start style contact and map */
+
+  .iframe {
+    border: turquoise solid 1px;
+    padding: 0;
+    margin: 0;
+  }
+  #contact {
+  border: 2px solid black;
+  margin: 0 !important;
+  background-color:#55a368 !important;
+  
+  font-family: 'Roboto', sans-serif;
+  }
+  
+  #contact .well {
+    padding: 5% 0 8% 0;
+  }
+  
+  #contact .form-control {
+    border-radius: 5%;
+    border: 2px solid #1e1e1e;
+  }
+  
+  #contact .form-control:hover {
+    box-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 10px 50px #ff6f61 !important;
+    background-color: yellow;
+  }
+  
+  #contact button {
+    border-radius: 30%;
+    border: 2px solid #1e1e1e;
+  }
+  
+  #contact button:hover {
+    box-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 10px 50px #ff6f61;
+    background-color: yellow;
+  }
+  
+  
+    /* end style contact and map */
+
+
+
+
+
+
+
+
+/* btn slide up  */
+.btn-up-css {
+  background-color: rgb(13, 105, 167);
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  position: absolute;
+  position: fixed;
+  z-index: 2000000000;
+  top: 94%;
+  left: 0%;
+  right: 0;
+  bottom: 0%;
+  border-radius: 50%;
+  padding: 0;
+}
+.btn-down-css {
+  background-color: rgb(13, 105, 167);
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  position: absolute;
+  position: fixed;
+  z-index: 2000000000;
+  top: 88%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  border-radius: 50%;
+}
+/* btn slide up  */

@@ -1,0 +1,244 @@
+
+/* background: linear-gradient(5deg,yellow 50%,  yellowgreen 50%);  */
+/* rotate  */
+/* -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotatey(360deg);
+  -moz-transition: rotatey(360deg);
+  -ms-transition:rotatey(360deg);
+  -o-transition:rotatey(360deg); */
+/* rotate  */
+/* box-shadow: 0 0 10px #ff6f61, 0 0 40px #ff6f61, 0 0 80px #ff6f61; */
+/* background-color: yellow; */
+/* box-shadow: 0 0 10px #ff6f61, 0 0 40px #ff6f61, 0 0 80px #ff6f61;  شادو الهوفر */
+:root {
+	--theme-color: #212121;
+	--sections-color: #282828;
+  --main-color: #C8344A;
+  --box-shadow: 20px 20px 50px #000000;
+  --font-color: goldenrod;
+}
+* {
+  scroll-behavior: smooth !important;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+  box-sizing: border-box !important;
+  overflow-x: hidden;
+  font-family: 'Markazi Text', serif;
+  text-align: center;
+  scroll-behavior: smooth !important;
+  box-sizing: border-box !important;
+  background-color:var(--theme-color);
+  background-attachment: fixed;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+
+}
+
+
+/*  
+ ====================================================================
+                  start style navbar 
+ ======================================================================
+*/
+.navbar{
+  font-weight: bolder;
+  transition: 1s all linear;
+  color: white !important;
+  background-color: #2d343f !important;
+  text-align: center;
+  font-size:20px!important;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white !important;
+  font-size: 16px !important;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15%;
+}
+
+.navbar .navbar-nav {
+  font-family:cursive;
+  /* margin-right: 2%; */
+}
+.dropdown-menu {
+  font-weight:bolder !important;
+  color: white !important;
+  text-align: center;
+  direction: initial;
+  /* border: none; */
+}
+.collapse {
+  font-weight: bolder;
+  /* width: 100%; */
+}
+ /* item-main  */
+.navbar-nav .nav-item :hover {
+  color: white;
+}
+ /* item-main  */
+.navbar .nav-item {
+
+  padding: 0px 5px 0px 0;
+  /* space item*/
+  margin: 3px;
+}
+@media screen and (min-width: 980px) {
+  .navbar .dropdown-menu {
+    padding: 2% !important;
+    background-color: #2d343f !important;
+    /* display: block; */
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    top: 45px;
+    transition: visibility .3s, opacity .3s ;
+  }
+  a{
+    list-style: none;
+    text-decoration: none !important;
+    color: white !important;
+  }
+  .navbar-nav .nav-item a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15%;
+    color: white !important;
+  }
+
+}
+/* color background on collapse ; */
+.dropdown-menu {
+  font-weight: bold;
+  background-color: #56647e !important;
+  color: white !important;
+}
+/* color background on collapse ; */
+.dropdown-item {
+  list-style: none;
+  text-decoration: none;
+  color: white !important;
+  background-color:none;
+  display:initial;
+  transition: .2s all;
+}
+.dropdown-item:hover{
+  margin-right: 4px;
+  color: rgb(12, 12, 12) !important;
+}
+/* class scrol navbar  */
+.ahmad {
+  color: white !important;
+  background-color: #27292e !important;
+  position: relative;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 200000;
+  min-height: 20px !important;
+}
+
+.form-bar{
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+.input-group{
+  margin: 5px;
+}
+.form-control{
+text-align: center;
+background-color: white !important;
+}
+/*  
+ ====================================================================
+                 end  style navbar 
+ ======================================================================
+*/
+
+
+
+.gallery-block.grid-gallery{
+  padding-bottom: 60px;
+  padding-top: 60px;
+  background-color:var(--theme-color);
+}
+.gallery-block.grid-gallery .container{
+  width: 90% !important;
+  box-shadow:var(--box-shadow);
+  background-color:var(--sections-color);
+
+}
+
+.gallery-block.grid-gallery .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block.grid-gallery .heading h2{
+    font-weight: bold;
+    color:var(--font-color) !important;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.gallery-block.grid-gallery a:hover{
+  opacity: 0.8;
+}
+
+.gallery-block.grid-gallery .item img{
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.4s;
+}
+
+.gallery-block.grid-gallery .item{
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+
+  .gallery-block.grid-gallery .scale-on-hover:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+}
+
+
+
+
+
+
+
+
+/* start style-footer */
+.sec-signin{
+  color:gold;
+  border-top:white solid .5px !important;
+  font-size: 20px !important;
+  background-color:var(--sections-color);
+  position: relative;
+  margin: 5%;
+}
+.sec-signin h2, h3, h4, h6, h5 ,p {
+  color:gold !important;
+
+}
+
+/* start footer */
+.btn-floating {
+  font-size: 30px !important;
+  color: gold !important;
+  font-size: 40px !important;
+}
+.btn-floating :hover{
+color: rgb(0, 200, 236);
+ transform: scale(1.1);
+ transition: .5s all;
+}
+.btn{
+  color:black!important;
+}
+/* end-style-footer */

@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html class="html">
+
+<head lang="en" dir="rtl">
+  <meta charset="UTF-8">
+  <title></title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../css/all.css" rel="stylesheet" type="text/css">
+  <link href="../css/animate.min.css" rel="stylesheet" type="text/css">
+  <link href="../css/buttoncss.css" rel="stylesheet" type="text/css">
+  <link href="../css/style.css" rel="stylesheet" type="text/css">
+  <link href="../css/animsition.css" rel="stylesheet" type="text/css">
+  <link href="../css/hover.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<!-- start preload -->
+<div class="load">
+  <h3>loading</h3>
+  <div class="container-2">
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-4"></div>
+  </div>
+</div>
+<!-- start preload -->
+
+<body id="body" class="back-golos" onload="myfunction()">
+
+  <!-- start navbar-1 -->
+  <nav id="navtwo" class="navbar navbar-expand-lg navbar-dark  bg-primary" style="direction: rtl;">
+    <a class="navbar-brand wow pulse" data-wow-duration="1s" data-wow-iteration="200" href="#">معاهد الفراعنه العليا</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active-item" href="../index.html"><i class="fas fa-home text-warning ml-2"></i>الـرئـيسية</a>
+        </li>
+        <li class="nav-item dropdown ">
+          <a href="#" class="nav-link " data-toggle="dropdown"><i class="fas fa-user-alt text-warning ml-2"></i>الالتحاق
+            بالمعهد<i class="fas fa-sort-down text-warning mr-1"></i></a>
+          <div class=" dropdown-menu dropdown-menu-right">
+            <div class="dropdown-divider"></div>
+            <a href="../pages/tanseq.html" class="dropdown-item">التنسيقات والتحويلات</a>
+            <div class="dropdown-divider"></div>
+            <a href="../pages/sections.html" class="dropdown-item">الشعب المتاحه</a>
+            <div class="dropdown-divider"></div>
+
+            <a href="../pages/Expenses.html" class="dropdown-item">المصاريف الدراسية</a>
+            <div class="dropdown-divider"></div>
+
+            <a href="../pages/tanseq.html" class="dropdown-item">شروط القبول </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">المباني والقاعات </a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+        <li class="nav-item dropdown ">
+          <a href="#" class="nav-link " data-toggle="dropdown"><i class="fas fa-book-open ml-2 text-warning"></i>شئون
+            التعليم<i class="fas fa-sort-down text-warning mr-1"></i></a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="dropdown-divider"></div>
+            <a href="../pages/Teaching-staff.html" class="dropdown-item">اعضاء هيئة التدريس</a>
+            <div class="dropdown-divider"></div>
+            <a href="../pages/sections-time.html" class="dropdown-item">جداول التدريس </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">الخريطه التعليميه </a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"><i class="fa fa-user-graduate text-warning ml-2"></i>الخدمات
+            الطلابية<i class="fas fa-sort-down text-warning mr-1"></i></a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a href="../pages/golos.html" class="dropdown-item">ارقام الجلوس </a>
+            <div class="dropdown-divider"></div>
+            <a href="../pages/natega.html" class="dropdown-item">نتائج الامتحانات </a>
+            <div class="dropdown-divider"></div>
+            <a href="../pages/sections-time.html" class="dropdown-item">جداول المحاضرات</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">جداول الامتحانات </a>
+            <div class="dropdown-divider"></div>
+            <a href="../pages/E-Learning.html" class="dropdown-item">التعليم الالكتروني </a>
+            <div class="dropdown-divider"></div>
+
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a href="" class="nav-link " data-toggle="dropdown"><i class="fas fa-hands-helping  text-warning ml-2"></i></i>تواصل
+            معنا<i class="fas fa-sort-down text-warning mr-1"></i> </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a href="../pages/contact.html" class="dropdown-item">عنوان المعهد</a>
+            <div class="dropdown-divider"></div>
+            <a href="../pages/contact.html" class="dropdown-item">للتسجيل بكودالطالب</a>
+            <div class="dropdown-divider"></div>
+            <a href="../pages/question.html" class="dropdown-item">الاسئـلةالـشائعه</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="main">
+    <!-- Another variation with a button -->
+    <div class="container form-bar">
+    <div class="input-group">
+      <input type="search" class="form-control"placeholder="Search in website">
+           <button class="btn btn-warning btn-md" type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+    </div>  
+  </div>
+  </div>
+  <!-- end navbar -->
+
+ <!-- START SRYLE MINI NAV -->
+  <div class="container-fluid  m-0 p-0">
+    <!--Navbar-->
+    <nav class="navbar  bg-success">
+
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">--</a>
+      اضعط هنا واختر القسم المراد الذهاب اليه سريعا
+      <!-- Collapse button -->
+      <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+        aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fas fa-bars fa-1x text-white"></i></span></button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#nozom"> نظم المعلومات الاداريه <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#3lom">علوم الحاسب</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#adara">ادارة اعمال</a>
+          </li>
+        </ul>
+        <!-- Links -->
+
+      </div>
+      <!-- Collapsible content -->
+
+    </nav>
+    <!--/.Navbar-->
+  </div>
+ <!-- END SRYLE MINI NAV -->
+
+<section class="row container-svg m-0 ">
+  <div class="col-md-6 col-sm-6">
+<h3> الـشُـعــب الدراسية الــمُــتــاحــة </h3>
+  </div>
+  <div class="col-md-6 col-sm-6">
+ <img src="../img/sections.svg" alt="sections.svg">
+  </div>
+</section>
+
+
+  <!-- start part section  -->
+  <section class=" themain-section">
+    <div class="nozom " id="nozom">
+      <h3 class="bg-success"> 1- نظم المعلومات الادراية </h3>
+
+      <div class="part1 ">
+
+        <h3> المؤهلات التي يقبلها:</h3>
+        <h4>
+          <br>
+          1-الثانوية العامة بشعبتيها وما يعادلها من الشهادات العربية والأجنبية.
+          <br>
+          2- الثانوية التجارية نظام(3-5) سنوات.
+          <br>
+          3- الثانوية الصناعية(3-5) سنوات.
+          <br>
+          4- الثانوية الفنية للإدارة والخدمات.
+          <br>
+          5- دبلوم معاهد الإدارة والسكرتارية.
+          <br>
+          6- دبلوم المعاهد الفنية التجارية.
+          <br>
+          7- دبلوم المعاهد الفنية الصناعية.
+          <br>
+        </h4>
+      </div> <!-- /part1 -->
+
+      <hr>
+      <div class=" part2">
+        <h2>أهداف الشعبة:</h2>
+        <h5>تعد الشعبة متميزة في المعرفة والتدريب مما أدى إلى وضع أهداف محددة لهذه الشعبة يجب تحقيقها والوصول
+          إليها.
+          وتتلخص أهم هذه الأهداف فيما يلي:
+          توظيف نظم المعلومات لدعم العملية العلمية والتعليمية والإدارية بالمعهد .
+          الإرتقاء بالمستوى التعليمى وتعميق المفهوم العلمى بين كوادر وأعضاء هيئة التدريس
+          تطوير المقررات الدراسية بما يتلائم مع التطور الدائم والمتسارع فى تخصصات نظم المعلومات وفقاً لمعايير
+          ونظم
+          الجودة المعتمدة وبما يوفر لخريجى الشعبة بيئة حديثة لتلقى المعارف .
+          تصميم خطة دراسية شاملة ومتطورة تعد الخريج ليمارس دوره كأحد أفراد العاملين فى مجال نظم المعلومات
+          تدريب الطالب لاكتساب المعرفة والمهارات الضرورية لكي يؤدى دوره
+          إعداد و تنشأة الطالب لمتابعة التعليم الذاتي المستمر لمواجهة التحديات و التطورات المستقبلية في مجال
+          نظم
+          المعلومات.
+          تقديم برامج تعليمية حديثة تواكب التطور المستمر.
+          تعزيز وتطوير الأبحاث التطبيقية في مجالات نظم المعلومات من خلال مشاريع يقدمها الطلاب خلال فترة
+          الدراسة.
+
+      </div><!-- /part2 -->
+      <hr>
+      <div class=" part3">
+        <h2>أهداف تعليمية</h2>
+
+        ولكون لخريج الشعبة الشعبة ي مهنة حديثة وديناميكية وسريعة التطور تتطلب معرفة العلوم الأساسية الحيوية
+        إضافة إلى الإلمام بالعلوم الأخرى ذات الصلة لاكتساب المعرفة المطلوبة. ولتحقيق أهداف الشعبة ، صممت الخطة
+        لإمداد الطالب بالعلوم الضرورية لكي تجعله قادراً على فهم العلوم الخاصة بنظم المعلومات
+      </div>
+      <hr>
+      <div class="part3 pt-2">
+        <h4>المهارات المكتسبة</h4>
+        <p class="lead">
+          في نهاية البرنامج الدراسى يجب أن تتوفر لدى الخريج المهارات الضرورية للقيام بممارسة العمل فى سوق
+          العمل كمصمم ومحلل نظم معلومات.
+          التواصل مع الجامعات الاخرى لاستكمال الدراسات العليا فى مجال نظم المعلومات.
+          إكتساب المعرفة العميقة والمكثفة في نظم المعلومات.
+          معرفة وفهم العلوم المعلوماتية في سياق احتياجات المجتمع.
+          ممارسة العمل للوصول إلى أرقى مستوى في الخدمات المتعلقة بنظم المعلومات المتعلقة بالمجتمع.
+          اكتساب المهارات الأساسية والمتقدمة في نظم المعلومات.
+        </p>
+        <hr>
+        <h3>مجالات العمل بعد التخرج:</h3>
+        <p class="lead">
+          Communication Specialist
+          <br>
+          Project Leader
+          <br>
+          Computer Analyst
+          <br>
+          Systems Development Manager
+          <br>
+          Computer Programmer
+          <br>
+          Systems Engineer
+          <br>
+          Information Systems Manager
+          <br>
+          Database Specialist
+          <br>
+          Systems Specialist
+          <br>
+          Networking Specialist
+          <br>
+          Technology Instructor
+          <br>
+          Internet Specialist
+          <br>
+          Technology Representative
+          <br>
+          Software Engineer
+          <br>
+        </p>
+
+      </div> <!-- /part3 -->
+    </div> <!-- /nozom -->
+
+
+    <div id="3lom"></div>
+
+    <div class="3lom ">
+      <h3 class="bg-success">2- شعبة علوم الحاسب:</h3>
+      <div>
+        <h2>المؤهلات التي يقبلها:</h2>
+
+        الثانوية العامة وما يعادلها من الشهادات العربية والأجنبية
+        <hr>
+        <h2>اهداف عامة للشعبة </h2>
+        <p>
+
+          تأهيل وإعداد المتخصصين فى الحاسبات والمعلومات بما يؤهلهم للمنافسة المحلية والعالمية فى تطوير
+          تكنولوجيا الحاسبات والمعلومات وتطبيقاتهـا .
+          توظيف علوم الحاسبات والمعلومات لدعم العملية العلمية والتعليمية والإدارية بالمعهد .
+          الإرتقاء بالمستوى التعليمى وتعميق المفهوم العلمى بين كوادر وأعضاء هيئة التدريس
+          تطوير المقررات الدراسية بما يتلائم مع التطور الدائم والمتسارع فى تخصصات علوم الحاسب وفقاً لمعايير
+          ونظم الجودة المعتمدة وبما يوفر لخريجى الشعبة بيئة حديثة لتلقى المعارف .
+          تشجيع البحث العلمى المتميز من خلال إصدار مجلة علمية دورية محكمة باسم الشعبة .
+          إضافة خبرات عملية للطلاب من خلال التركيز على الجانب التطبيقى و التطوير الدائم للمعامل باستخدام أحدث
+          الاجهزة والبرامج .
+          تنمية المهارات المتميزة لدى الطلاب من خلال تأهيلهم للحصول على شهادات دولية مهنية فى تطبيقات
+          تكنولوجيا الحاسب وفقاً لاحتياجات سوق العمل.
+        </p>
+        <hr>
+        <!-- ----------------------------------- -->
+        <h2>المهارات المكتسبة</h2>
+        <p class="lead">
+
+          يتم اعداد خريجين قادرين على النعامل العلمى والعملى التقدم فى سوق العمل داخل وخارج مصر.
+          تحليل الاحتياجات الفنية للمؤسسات.
+          تصميم وتطوير التقنيات المتقدمة لحلول المشاريع (Enterprise Solution ) عن طريق ادوات وتكنولوجيا هندسة
+          البرمجيات الحديثة.
+          تصميم الحلول التطبيقية المتكاملة واعداده وتنفيذها وصيانتها.
+        </p>
+        <hr>
+        <h2>مجالات العمل بعد التخرج </h2>
+        <p>
+
+          يمكن لخريج علوم الحاسب شغل الوظائف التالية بكفاءة تامة :-
+          في طيف واسع من الشركات العاملة في مجال التقنية والحاسب الآلي.
+          <br>
+          • في العديد من الشركات غير المتخصصة التي تبحث عن من يسير الأمور التقنية فيها.
+          <br>
+          • مبرمج مواقع إنترنت كموظف في شركة أو عمل لحسابك الخاص.
+          <br>
+          • رجل مبيعات لتسويق برامج الكمبيوتر وتوضيح عملها واستفادة العميل منها.
+          <br>
+          • في مجال التعليم في عدد كبير من المعاهد العامة والخاصة وفي الجامعات.
+          <br>
+          System Analysis.
+          <br>
+          Software Engineers
+          <br>
+          Program Manager
+          <br>
+          Application Analysis
+          <br>
+          Software Application Developers
+        </p>
+
+      </div>
+
+
+    </div> <!-- /3slom -->
+
+
+    <div id="adara"></div>
+    <div class="adara " id="">
+      <h3 class="bg-success">3-شعبة ادارة الاعمال</h3>
+      <h4>المؤهلات التي يقبلها</h4>
+      <p>
+        1- الثانوية العامة بشعبتيها وما يعادلها من الشهادات العربية والأجنبية.
+        <br>
+        2-الثانوية التجارية 3 سنوات.
+        <br>
+        3- الثانوية الفنية للإدارة والخدمات
+        <br>
+        4- الثانوية الصناعية(3-5) سنوات.
+        <br>
+        5- دبلوم المعاهد الفنية الصناعية.
+        <br>
+        6- الثانوية التجارية 5 سنوات
+        <br>
+        7- دبلوم المعاهد الفنية التجارية.
+        <br>
+        8- دبلوم معاهد الإدارة والسكرتارية.
+      </p>
+      <hr>
+
+      <h2>اهداف الشعبة</h2>
+      <p class="lead">
+        تعزيز رسالة المعهد في التعليم، والبحث، وخدمة المجتمع من خلال اعداد خريج متميز يمتلك الكفاءات اللازمة
+        لفعالية العمل في مجال إدارة الأعمال التي يتطلبها سوق العمل المحلي والعربي، وتطوير أعضاء هيئة التدريس
+        بالقسم لزيادة فاعليتهم في التعليم والبحث ، والمساهمة في تطوير أنشطة وأعمال خدمة للمجتمع بما يواكب
+        متطلبات البيئة المحلية والعالمية
+      </p>
+      <hr>
+
+      <h2>المهارات المكتسبة</h2>
+      <p>
+        يوفر إكمال متطلبات درجة البكالوريوس في إدارة الأعمال المهارات التالية في الخريج:
+        المهارات التحليلية (Analytic Skills): قدرة الخريج على تحديد المتغيرات الأساسية في المواقف المختلفة في
+        منظمة الأعمال، وكيفية ترابطها وأسبقيات معالجتها
+        <br>
+        المهارات التشخيصية ( Diagnostic Skills): مهارة تشخيص مظاهر وأسباب المشكلات في منظمة الأعمال بالإضافة إلى
+        تشخيص الجوانب الإيجابية في الأداء
+        <br>
+        المهارات الإدراكية (Conceptual Skills): القابلية الذهنية لاستيعاب علاقات السبب والنتيجة وتصور الكيفية
+        الشاملة التي تترابط فيها أجزاء منظمة الأعمال سوية.
+        المهارات التفاعلية (Interpersonal skills): مهارات التفاعل مع الآخرين من الاتصال بهم إلى التفاهم معهم،
+        وتحفيزهم للأداء الأفضل
+        <br>
+        لمهارات المعرفية (Knowledge Skills):المعرفة العلمية بوظائف المدير (التخطيط، التنظيم، القيادة والتحفيز،
+        الرقابة) وكيفية ممارستها في مجال أنشطة منظمة الأعمال (العمليات، التسويق، الموارد البشرية، المالية،
+        العلاقات العامة، البحث والتطوير) بالإضافة إلى المهارات المعرفية الداعمة
+        <br>
+        <hr>
+      </p>
+
+      <h2>مجالات العمل بعد التخرج:</h2>
+      <p>
+        يتم تأهيل خريجي قسم إدارة الأعمال للعمل في مختلف مجالات النشاط الإداري في منظمات الأعمال الاقتصادية
+        والخدمية في قطاعات البنوك والوزارات والهيئات الحكومية الرسمية وغير الرسمية ، كما يمكن ممارسة التجارة
+        وإقامة وإدارة المشروعات الخاصة الصغيرة والمتوسطة الحجم ، كما يمكن للخريجين أن يقوموا بتعليم إدارة
+        الأعمال في مختلف المدارس والمؤسسات لغير المتخصصين في هذا المجال ، فضلاً عن إمكانية مواصلة دراستهم
+        العليا.
+
+
+      </p>
+
+    </div> <!-- /adara  -->
+
+
+
+  </div> 
+</section> <!-- /section  -->
+
+
+
+   <!-- بدايه الفوتر  -->
+   <section style="direction: ltr;" class="">
+    <footer class="page-footer font-small stylish-color-dark pt-4">
+
+      <!-- Grid row -->
+      <div class="row">
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-4 mx-auto">
+
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">معاهد الفراعنة العليا</h5>
+          <p> <img class="img-thumbnail" src="../img/logo.png" alt=""> </p>
+
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">ارقام التواصل</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">
+                <p>تليفون: 33813228 /33813229</p>
+                <p>تليفون: 01227676830</p>
+              </a>
+              </a>
+            </li>
+
+
+          </ul>
+
+        </div>
+
+
+
+        <div class="col-md-4 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">العناوين</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">
+                <p>طريق سقارة السياحي- المريوطية- الهرم</p>
+                <p>الكيلو9 - بجوار نقطة مرور شبرامنت</p>
+                <p> البريد الالكترونى:</p>
+                <p>info@pharaohs-institutes.com </p>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+      <hr>
+
+      <!-- Call to action -->
+      <ul class="list-unstyled list-inline text-center py-2">
+        <li class="list-inline-item">
+          <h5 class="mb-1 tlt"> Register </h5>
+        </li>
+        <li class="list-inline-item">
+          <a href="#login" class="btn btn-danger btn-rounded text-white">Sign up!</a>
+        </li>
+      </ul>
+      <!-- Call to action -->
+
+      <hr>
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center fa-2x">
+        <h1 class="text-white">تـابـعـونـا</h1>
+        <li class="list-inline-item">
+          <a href="" class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="" class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="" class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-google-plus"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="" class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a href="" class="btn-floating btn-dribbble mx-1">
+            <i class="fab fa-dribbble"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3 text-warning">
+        <p class="tlt"> © 2020 Copyright:</p>
+        جميع الحقوق محفوظه لمعاهد الفراعنة العليا
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </section>
+  <!-- نهايه الفوتر  -->
+
+
+
+
+
+
+
+
+
+  <!-- start btn slide up -->
+  <a class="btn-up-css hvr-icon-spin hvr-spin" href="#down"><i class="mt-2 hvr-icon fa fa-angle-double-up"></i>
+  </a>
+  <!-- start btn slide up -->
+  <a class="btn-down-css hvr-icon-spin" href="#body"><i class="mt-2 hvr-icon fa fa-angle-double-down"></i>
+  </a>
+  <!-- start btn slide up -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ------------------------------------------------------------------ -->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/animsition.js"></script>
+  <script src="../js/textillate.js"></script>
+  <script src="../js/lettering.js"></script>
+  <script src="../js/jquery.fittext.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/all.js"></script>
+  <script src="../js/ahmad.js"></script>
+  <script src="../js/wow.min.js"></script>
+
+  <script>
+    new WOW().init();
+  </script>
+
+  <div id="down"></div>
+
+</body>
+
+</html>
