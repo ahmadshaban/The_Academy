@@ -34,7 +34,6 @@ body {
   background-color:var(--theme-color);
   background-attachment: fixed;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-
 }
 
 
@@ -215,30 +214,82 @@ background-color: white !important;
 
 /* start style-footer */
 .sec-signin{
-  color:gold;
-  border-top:white solid .5px !important;
+  border-top: white solid .5px !important;
   font-size: 20px !important;
-  background-color:var(--sections-color);
-  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
   margin: 5%;
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  margin: 0 auto;
 }
-.sec-signin h2, h3, h4, h6, h5 ,p {
-  color:gold !important;
-
-}
-
 /* start footer */
 .btn-floating {
   font-size: 30px !important;
-  color: gold !important;
   font-size: 40px !important;
 }
-.btn-floating :hover{
-color: rgb(0, 200, 236);
- transform: scale(1.1);
- transition: .5s all;
+.rgba-1{
+  position: absolute;
+  width: 100%;
+ height: 100%;
 }
-.btn{
-  color:black!important;
+.btn-floating :hover {
+color: rgb(0, 200, 236);
+transform: scale(1.1);
+transition: .5s all;
+ z-index: 999999;
+}
+.btn {
+  color:goldenrod !important;
+  z-index: 999999;
+  color: black !important;
+}
+.icon-footer ,.footer-copyright{
+  position: relative;
+  color:goldenrod !important;
+}
+
+.sec-signin h2 , h3 ,h4, h5, p  , li , i ,a {
+  color:#ffbe0b !important;
+
 }
 /* end-style-footer */
+
+
+
+
+
+/* btn slide up  */
+.btn-up-css {
+  background-color: rgb(13, 105, 167);
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  position: absolute;
+  position: fixed;
+  z-index: 2000000000;
+  top: 93%;
+  left: 0%;
+  right: 0;
+  bottom: 0%;
+  border-radius: 10%;
+  padding: 0;
+}
+
+.btn-down-css {
+  background-color: rgb(13, 105, 167);
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  position: absolute;
+  position: fixed;
+  z-index: 2000000000;
+  top: 86%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  border-radius: 10%;
+}
+
+/* btn slide up  */
