@@ -260,14 +260,11 @@ body {
     background-image: url(../img/learn.jpg) !important;
   }
 .view{
-  font-size: 35px !important;
+  font-size: 25px !important;
   margin: 0 auto;
 }
 }
-.view{
-  font-size: 20px !important;
-  margin: 0 auto;
-}
+
 
 /* -----------------#particles-js -------------------  */
 canvas {
