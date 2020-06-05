@@ -199,6 +199,18 @@ body {
 .input-group button {
   margin-bottom: 5px;
 }
+.form-1{
+  text-align: center !important;
+ }
+ .form-1 input{
+  text-align: center;
+  margin-top: 8px;
+  width: 50%;
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 5%;
+ }
+
 .input-group span{
   width: 100px;
   height: 100px;
