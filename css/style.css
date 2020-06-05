@@ -450,9 +450,19 @@ h3 {
       width: 98%;
     }
     .section-of .row{
-      padding: 25px !important;
+      padding: 30px !important;
     }
 }
+
+@media (max-width:768px){
+  .section-of .row{
+    padding: 60px !important;
+  }
+  .section-of .card{
+    margin-top: 10px;
+  }
+}
+
 .section-of .card {
   border-radius: 10%;
   background-color: rgba(0, 0, 0, 0.2) !important;
