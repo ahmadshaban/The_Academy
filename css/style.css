@@ -195,7 +195,9 @@ body {
 }
 @media (max-width:400px){
   .input-group input{
-    width: 100%;
+    width: 95%;
+    margin-bottom: 3px;
+    margin-bottom: 2px;
   }
   .input-group button {
     margin-bottom: 5px;
