@@ -189,11 +189,15 @@ body {
   color: rgb(255, 255, 255) !important;
   border:  solid 1px white;
   border-radius:10% ;
+  padding: 6px;
 }
 .input-group a{
   border:  solid 1px white;
   border-radius:10% ;
   background-color: #21618C;
+  color: rgb(255, 255, 255) !important;
+  padding: 6px;
+
 }
 .input-group a:hover {
   color: rgb(12, 11, 11) !important;
