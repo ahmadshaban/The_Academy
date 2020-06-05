@@ -182,17 +182,22 @@ body {
 .input-group input , a , button {
   padding: 5px;
   text-align: center;
-
 }
 .input-group button {
-  margin-bottom:  5px;
+  margin-bottom: 5px;
+  background-color: #21618C;
+  color: white !important;
 }
 .input-group a{
   border:  solid 1px white;
   border-radius:10% ;
-  /* float: right; */
+  background-color: #21618C;
 }
-
+@media (max-width:400px){
+  .input-group input{
+    /* width: 100%; */
+  }
+}
 
 
   /* box-shadow: 0 0 5px #c4b70a, 0 0 5px #b8d805, 0 5px 5px #ff6f61 !important; */
