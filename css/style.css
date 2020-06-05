@@ -186,7 +186,9 @@ body {
 .input-group button {
   margin-bottom: 5px;
   background-color: #21618C;
-  color: rgb(226, 182, 71) !important;
+  color: rgb(255, 255, 255) !important;
+  border:  solid 1px white;
+  border-radius:10% ;
 }
 .input-group a{
   border:  solid 1px white;
