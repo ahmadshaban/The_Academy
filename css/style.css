@@ -186,16 +186,22 @@ body {
 .input-group button {
   margin-bottom: 5px;
   background-color: #21618C;
-  color: white !important;
+  color: rgb(226, 182, 71) !important;
 }
 .input-group a{
   border:  solid 1px white;
   border-radius:10% ;
   background-color: #21618C;
 }
-.input-group a :hover {
-  color: yellow;
+.input-group a:hover {
+  color: rgb(12, 11, 11) !important;
+  background-color: rgb(226, 197, 33);
 }
+.input-group button:hover{
+  color: rgb(12, 11, 11) !important;
+  background-color: rgb(226, 197, 33);
+}
+
 
 @media (max-width:400px){
   .input-group input{
