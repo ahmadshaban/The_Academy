@@ -164,8 +164,14 @@ body {
   min-height: 20px !important;
   
 }
-
+.main{
+  width: 80%;
+  min-height: 100px ;
+  margin: 0 auto;
+  text-align: center;
+}
 .form-bar {
+  text-align: center;
   color: white;
   text-align: center;
   padding: 10px;
@@ -173,12 +179,48 @@ body {
 }
 
 .input-group {
+  text-align: center;
   margin: 5px;
+  display: block;
 }
-
 .form-control {
   text-align: center;
   background-color: white !important;
+  border: solid 1px black;
+}
+.input-form{
+  text-align: center;
+  margin-top: 8px;
+  width: 35%;
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 5%;
+}
+.input-group button {
+  margin-bottom: 5px;
+}
+.input-group span{
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  font-size: 20px ;
+}
+@media (max-width:768px){
+  .input-group span{
+    display: none;
+  }
+}
+.input-group button:hover{
+  box-shadow: 0 0 5px #c4b70a, 0 0 5px #b8d805, 0 5px 5px #ff6f61 !important;
+  background-color: rgb(47, 141, 204);
+}
+.input-group .input-form:hover{
+  box-shadow: 0 0 10px #c4b70a, 0 0 5px #b8d805, 0 5px 5px #ff6f61 !important;
+  background-color: yellow;
+}
+.form-control:hover{
+  box-shadow: 0 0 5px #c4b70a, 0 0 5px #b8d805, 0 5px 5px #ff6f61 !important;
+  background-color: yellow;
 }
 
 /*  
@@ -187,8 +229,10 @@ body {
  ======================================================================
 */
 
- /* start style header */
-.header {
+/* --------------------------------------------------------------- */
+                    /* start style header */
+/* --------------------------------------------------------------- */
+ .header {
   position: relative;
   background-image: url(../img/learn3.jpg);
   background-size: cover;
@@ -198,7 +242,6 @@ body {
   min-height: 500px;
   overflow: hidden;
   color: gold;
-
 }
 .view {
   font-size: 40px;
@@ -213,12 +256,17 @@ body {
 }
 @media (max-width:768px){
   .header{
-    min-height:300px;
+    min-height:350px;
+    background-image: url(../img/learn.jpg) !important;
   }
+.view{
+  font-size: 35px !important;
+  margin: 0 auto;
+}
+}
 .view{
   font-size: 20px !important;
   margin: 0 auto;
-}
 }
 
 /* -----------------#particles-js -------------------  */
@@ -232,12 +280,11 @@ canvas {
   width: 100%;
   opacity: .9;
 }
-
 /* -------------------#particles-js --------------- */
- 
-          /* ------------------------------------- */
-          /* end style header */
-          /* -------------------------------------- */
+
+/* ------------------------------------------------------------------------------------- */
+                               /* end style header */
+/* -------------------------------------------------------------------------------------- */
 
 /*  
  ====================================================================
