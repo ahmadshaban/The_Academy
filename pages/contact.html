@@ -118,116 +118,119 @@
   </div>
   <!-- end navbar -->
 
-    <!--جزء المعلومات الخاصه والخريطه  -->
-    <section id="contact">
-      <div id="contact" class="jumbotron m-0">
-        <div class="p-0 m-0 text-warning">
-          <h3 style="direction: ltr;" class="tlt">Contact Us</h3>
-          <h3><i class="fas fa-map-marked-alt fa-3x"></i><br> تـــــواصلو <span class="text-warning"> مــــــعـنــا</span> </h3>
-        </div>
-  
-        <div class="row">
-          <div class="col-md-12 iframe">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110641.68371808024!2d31.262369932878883!3d29.934779401680203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5968de99dee4d7a4!2z2KfZg9in2K_ZitmF2YrYqSDYp9mE2YHYsdin2LnZhtip!5e0!3m2!1sar!2seg!4v1584336440527!5m2!1sar!2seg"
-              width="100%" height="510" frameborder="0" style="border:3;" allowfullscreen="" aria-hidden="false"
-              tabindex="0"></iframe>
-          </div>
-          <div class="col-md-10 m-auto pt-5 ">
-            <h4><strong>ارسل استفساراتك  </strong></h4>
-            <form class="pt-3">
-              <div class="form-group">
-                <input type="text" class="form-control" name="" value="" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="" value="" placeholder="E-mail">
-              </div>
-              <div class="form-group">
-                <input type="tel" class="form-control" name="" value="" placeholder="Phone">
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
-              </div>
-              <button class="btn btn-lg btn-warning" type="submit" name="button">
-                <i class="fas fa-share-square " aria-hidden="true"></i> ارسال
-              </button>
-            </form>
-          </div>
-      
-        </div>
+<!-- بدايه جزء اللوجين فورم  -->
+<div class="jumbotron sign-in m-0" id="login">
+  <div class="container">
+    <h2 class="text-center" id="title">Register on the site</h2>
+
+    <hr>
+    <div class="row">
+      <div class="col-md-5">
+        <form role="form" method="post" action="register.php">
+          <fieldset>
+            <p class="text-uppercase pull-center">أملأ البيانات الاتية لتسجيل الدخول </p>
+            <div class="form-group">
+              <input type="text" name="username" id="username" class="form-control input-lg" placeholder="username">
+            </div>
+
+            <div class="form-group">
+              <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" id="password" class="form-control input-lg"
+                placeholder="Password">
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" id="password" class="form-control input-lg"
+                placeholder="Student-code">
+            </div>
+
+            <div class="form-check">
+              <label class="form-check-label mb-2">
+                <input type="checkbox" class="form-check-input">
+                بالضغط فوق تسجيل ، فإنك توافق على سياسةالموقع وشروطه
+              </label>
+            </div>
+            <div>
+              <input type="submit" class="btn btn-lg btn-warning   value=" Register">
+            </div>
+          </fieldset>
+        </form>
       </div>
-    </section>
-    <!--نهايه جزء الملعومات المهمه والخريطه -->
-  
 
-  <!-- بدايه جزء اللوجين فورم  -->
-  <div class="jumbotron sign-in m-0" id="login">
-    <div class="container">
-      <h2 class="text-center" id="title">Register on the site</h2>
+      <div class="col-md-2">
+        <!-------null------>
+      </div>
 
-      <hr>
-      <div class="row">
-        <div class="col-md-5">
-          <form role="form" method="post" action="register.php">
-            <fieldset>
-              <p class="text-uppercase pull-center">أملأ البيانات الاتية لتسجيل الدخول </p>
-              <div class="form-group">
-                <input type="text" name="username" id="username" class="form-control input-lg" placeholder="username">
-              </div>
+      <div class="col-md-5">
+        <form role="form">
+          <fieldset>
+            <p class="text-uppercase"> تسجيل الدخول من هنا لو سبق لك التسجيل </p>
 
-              <div class="form-group">
-                <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address">
-              </div>
-              <div class="form-group">
-                <input type="password" name="password" id="password" class="form-control input-lg"
-                  placeholder="Password">
-              </div>
-              <div class="form-group">
-                <input type="password" name="password" id="password" class="form-control input-lg"
-                  placeholder="Student-code">
-              </div>
+            <div class="form-group">
+              <input type="email" name="username" id="username" class="form-control input-lg" placeholder="username">
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" id="password" class="form-control input-lg"
+                placeholder="Password">
+            </div>
+            <div>
+              <input type="submit" class="btn btn-warning btn-lg" value="Sign In">
+            </div>
 
-              <div class="form-check">
-                <label class="form-check-label mb-2">
-                  <input type="checkbox" class="form-check-input">
-                  بالضغط فوق تسجيل ، فإنك توافق على سياسةالموقع وشروطه
-                </label>
-              </div>
-              <div>
-                <input type="submit" class="btn btn-lg btn-warning   value=" Register">
-              </div>
-            </fieldset>
-          </form>
-        </div>
-
-        <div class="col-md-2">
-          <!-------null------>
-        </div>
-
-        <div class="col-md-5">
-          <form role="form">
-            <fieldset>
-              <p class="text-uppercase"> تسجيل الدخول من هنا لو سبق لك التسجيل </p>
-
-              <div class="form-group">
-                <input type="email" name="username" id="username" class="form-control input-lg" placeholder="username">
-              </div>
-              <div class="form-group">
-                <input type="password" name="password" id="password" class="form-control input-lg"
-                  placeholder="Password">
-              </div>
-              <div>
-                <input type="submit" class="btn btn-warning btn-lg" value="Sign In">
-              </div>
-
-            </fieldset>
-          </form>
-        </div>
+          </fieldset>
+        </form>
       </div>
     </div>
-
   </div>
-  <!-- نهاية جزء اللوجين فورم  -->
+
+</div>
+<!-- نهاية جزء اللوجين فورم  -->
+
+
+  <!--جزء المعلومات الخاصه والخريطه  -->
+  <section id="contact">
+    <div class="text-warning content-conatct">
+      <h3 style="direction: ltr;" class="tlt m-0">Contact Us</h3>
+      <h3><i class="fas fa-map-marked-alt m-0"></i><br> تـــــواصلو <span class="text-warning"> مــــــعـنــا</span>
+      </h3>
+    </div>
+    <div>
+      <div class="row">
+        <div class="col-md-11 iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110641.68371808024!2d31.262369932878883!3d29.934779401680203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5968de99dee4d7a4!2z2KfZg9in2K_ZitmF2YrYqSDYp9mE2YHYsdin2LnZhtip!5e0!3m2!1sar!2seg!4v1584336440527!5m2!1sar!2seg"
+            width="95%" height="450" frameborder="0" style="border:3;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+        <div class="col-md-10 m-auto Inquiry-form">
+          <h4><strong>ارسل استفساراتك </strong></h4>
+          <form class="pt-3">
+            <div class="form-group">
+              <input type="text" class="form-control" name="" value="" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="" value="" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-control" name="" value="" placeholder="Phone">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
+            </div>
+            <button class="btn btn-md btn-warning" type="submit" name="button">
+              <i class="fas fa-share-square " aria-hidden="true"></i> ارسال
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--نهايه جزء الملعومات المهمه والخريطه -->
+  
+
+  
 
 
  

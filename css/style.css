@@ -165,12 +165,13 @@ body {
   
 }
 .main{
-  width: 80%;
+  width: 100%;
   min-height: 100px ;
   margin: 0 auto;
   text-align: center;
 }
 .form-bar {
+  margin-top: 30px;
   text-align: center;
   color: white;
   text-align: center;
@@ -195,12 +196,23 @@ body {
   padding: 5px;
   border: solid 1px black;
   border-radius: 5%;
+ 
 }
 .input-group button {
   margin-bottom: 5px;
 }
 .form-1{
+  margin-top: 15px;
   text-align: center !important;
+ }
+ .form-1 a{
+   background-color: rgba(0, 0, 0, 0.2);
+   width: 40px;
+   height: 40px;
+   padding: 8px;
+   margin-left:10px;
+   border: solid .5px white;
+   border-radius: 10%;
  }
  .form-1 input{
   text-align: center !important;
@@ -209,29 +221,9 @@ body {
   border: solid 1px black;
   border-radius: 5%;
  }
-.input-group span{
-  width: 100px;
-  height: 100px;
-  color: yellow;
-  font-size: 20px ;
-}
-@media (max-width:768px){
-  .input-group span{
-    display: none;
-  }
-}
-.input-group button:hover{
-  box-shadow: 0 0 5px #c4b70a, 0 0 5px #b8d805, 0 5px 5px #ff6f61 !important;
-  background-color: rgb(47, 141, 204);
-}
-.input-group .input-form:hover{
-  box-shadow: 0 0 10px #c4b70a, 0 0 5px #b8d805, 0 5px 5px #ff6f61 !important;
-  background-color: yellow;
-}
-.form-control:hover{
-  box-shadow: 0 0 5px #c4b70a, 0 0 5px #b8d805, 0 5px 5px #ff6f61 !important;
-  background-color: yellow;
-}
+
+  /* box-shadow: 0 0 5px #c4b70a, 0 0 5px #b8d805, 0 5px 5px #ff6f61 !important; */
+
 
 /*  
  ====================================================================
