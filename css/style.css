@@ -1622,19 +1622,21 @@ tbody td {
 
 
 
-.container .row-images{
-  width: 98%;
+ .row-images{
+  /* display: flex; */
+  width: 100% !important;
   background-color:var(--sections-color);
+ text-align: center;
   margin: 0 auto;
-  padding: 10px;
-  margin: 10px;
+  justify-content: center;
 }
-.container .row-images a{
-  display: flex;
- width: 30%;
+
+ .row-images img{
+ justify-content: center;
+ width: 45%;
  height: 30%;
  padding: 10px !important;
-
-
  margin: 5px !important;
+
+
 }
