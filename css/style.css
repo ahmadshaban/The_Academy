@@ -208,7 +208,6 @@ body {
   background-color: rgb(226, 197, 33);
 }
 
-
 @media (max-width:400px){
   .input-group input{
     width: 95%;
@@ -216,7 +215,7 @@ body {
     margin-bottom: 4px;
   }
   .input-group button {
-    margin-top: 0px;
+    margin-top: 2px;
     background-color: #21618C !important;
     color: white !important;
   }
