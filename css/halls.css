@@ -1,0 +1,440 @@
+
+/* background: linear-gradient(5deg,yellow 50%,  yellowgreen 50%);  */
+/* rotate  */
+/* -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotatey(360deg);
+  -moz-transition: rotatey(360deg);
+  -ms-transition:rotatey(360deg);
+  -o-transition:rotatey(360deg); */
+/* rotate  */
+/* box-shadow: 0 0 10px #ff6f61, 0 0 40px #ff6f61, 0 0 80px #ff6f61; */
+/* background-color: yellow; */
+/* box-shadow: 0 0 10px #ff6f61, 0 0 40px #ff6f61, 0 0 80px #ff6f61;  شادو الهوفر */
+:root {
+  --theme-color: #212121;
+  --sections-color: #282828;
+  --main-color: #C8344A;
+  --box-shadow: 20px 20px 50px #000000;
+  --font-color: goldenrod;
+  --background-color:rgba(0, 0, 0, 0.5);
+}
+
+* {
+  scroll-behavior: smooth !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+  box-sizing: border-box !important;
+  direction: rtl;
+  overflow-x: hidden;
+  font-family: 'Markazi Text', serif;
+  text-align: center;
+  scroll-behavior: smooth !important;
+  box-sizing: border-box !important;
+  background-color: var(--theme-color);
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+@media (max-width:768px) {
+  body{
+    padding:2px;
+  }
+}
+/*  
+ ====================================================================
+                  start style navbar 
+ ======================================================================
+*/
+.navbar {
+  font-weight: bolder;
+  transition: 1s all linear;
+  color: white !important;
+  background-color: #2d343f !important;
+  text-align: center;
+  top:0;
+  padding: 20px;
+  font-size: 30px;
+  
+}
+ @media (max-width:768px){
+ .navbar{
+   margin: 0 auto !important;
+ }
+ .navbar-dark .navbar-nav .nav-link {
+   font-size: 16px !important;
+ }
+ .dropdown-menu {
+   font-size: 16px;
+ }
+} 
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+  font-size: 20px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15%;
+}
+
+.navbar .navbar-nav {
+  font-family: cursive;
+  /* margin-right: 2%; */
+}
+.dropdown-menu {
+  font-weight: bolder !important;
+  color: white !important;
+  text-align: center;
+  direction: initial;
+  /* border: none; */
+  font-size: 20px;
+}
+.collapse {
+  font-weight: bolder;
+  width: 100%;
+}
+
+/* item-main  */
+.navbar-nav .nav-item :hover {
+  color: white;
+}
+
+/* item-main  */
+.navbar .nav-item {
+  padding: 0px 5px 0px 0;
+  /* space item*/
+  margin: 3px;
+}
+
+@media (min-width:980px){
+  .navbar .dropdown-menu {
+    padding: 2% !important;
+    background-color: #2d343f !important;
+    /* display: block; */
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    top: 45px;
+    transition: visibility .3s, opacity .3s;
+    z-index: 99999999;
+  }
+  a {
+    list-style: none;
+    text-decoration: none !important;
+    color: white !important;
+  }
+  .navbar-nav .nav-item a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15%;
+    color: white !important;
+  }
+
+}
+/* color background on collapse ; */
+.dropdown-menu {
+  font-weight: bold;
+  background-color: #56647e !important;
+  color: white !important;
+ 
+}
+
+/* color background on collapse ; */
+.dropdown-item {
+  list-style: none;
+  text-decoration: none;
+  color: white !important;
+  background-color: none;
+  display: initial;
+  transition: .1s all;
+ 
+}
+.dropdown-item:hover {
+  margin-right: 4px;
+  color: rgb(12, 12, 12) !important;
+}
+
+/* class scrol navbar  */
+.ahmad {
+  color: white !important;
+  background-color: #27292e !important;
+  position: relative;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 200000;
+  min-height: 20px !important;
+}
+
+/* ------------------start style nav-2 ----------------- */
+.main{
+  width: 100%;
+  min-height: 70px ;
+  margin: 0 auto;
+  text-align: center;
+}
+.input-group {
+  text-align: center;
+  margin: 5px;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+
+}
+.input-group input , a , button {
+  padding: 5px;
+  text-align: center;
+}
+.input-group button {
+  margin-bottom: 5px;
+  background-color: #21618C;
+  color: rgb(255, 255, 255) !important;
+  border:  solid 1px white;
+  border-radius:10% ;
+  padding: 6px;
+}
+.input-group a{
+  border:  solid 1px white;
+  border-radius:10% ;
+  background-color: #21618C;
+  color: rgb(255, 255, 255) !important;
+  padding: 6px;
+
+}
+.input-group a:hover {
+  color: rgb(12, 11, 11) !important;
+  background-color: rgb(226, 197, 33);
+}
+.input-group button:hover{
+  color: rgb(12, 11, 11) !important;
+  background-color: rgb(226, 197, 33);
+}
+
+@media (max-width:400px){
+  .input-group input{
+    width: 95%;
+    margin-top:4px;
+    margin-bottom: 4px;
+  }
+  .input-group button {
+    margin-top: 2px;
+    background-color: #21618C !important;
+    color: white !important;
+  }
+}
+/* ----------------------- end-style nav-2 ------------------- */
+
+/*  
+ /* ==================================================================== */
+                 /* end  style navbar  */
+ /* ====================================================================== */
+img {
+  vertical-align: middle;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  box-shadow:var(--box-shadow) ;
+  background-color:var(--sections-color) ;
+  width:100%;
+  padding: 50px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.container .mySlides img{
+  width: 100% !important;
+  height: 500px;
+}
+  /* row  */
+.img-under{
+margin-top: 20px;
+width: 100%;
+padding: 20px;
+
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: .5%;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  left: .5%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  margin: 5px;
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+/* start style-footer */
+.sec-signin {
+  border-top: white solid .5px !important;
+  font-size: 20px !important;
+  background-image: url(../pexels-photo-3769118.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 5%;
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  margin: 0 auto;
+
+}
+/* start footer */
+.btn-floating {
+  font-size: 30px !important;
+  font-size: 40px !important;
+  
+
+}
+.rgba-1{
+  position: absolute;
+  width: 100%;
+ height: 100%;
+  background-color: rgba(0, 0, 0, .7);
+}
+.btn-floating :hover {
+color: rgb(0, 200, 236);
+transform: scale(1.1);
+transition: .5s all;
+ z-index: 999999;
+}
+.btn {
+  color:goldenrod !important;
+  z-index: 999999;
+  color: black !important;
+}
+.icon-footer ,.footer-copyright{
+  position: relative;
+  color:goldenrod !important;
+}
+
+.sec-signin h2 , h3 ,h4, h5, p  , li , i ,a {
+  color:#ffbe0b !important;
+
+}
+/* end-style-footer */
+
+
+.animsition {
+  z-index: 999900000000000;
+
+}
+
+.animsition-link {
+  color: #ff6f61;
+}
+
+
+
+
+
+
+/* btn slide up  */
+.btn-up-css {
+  background-color: rgb(13, 105, 167);
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  position: absolute;
+  position: fixed;
+  z-index: 2000000000;
+  top: 93%;
+  left: 0%;
+  right: 0;
+  bottom: 0%;
+  border-radius: 10%;
+  padding: 0;
+}
+
+.btn-down-css {
+  background-color: rgb(13, 105, 167);
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  position: absolute;
+  position: fixed;
+  z-index: 2000000000;
+  top: 86%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  border-radius: 10%;
+}
+
+/* btn slide up  */
