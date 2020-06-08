@@ -35,6 +35,10 @@
 <body id="body" onload="myfunction()">
 
 
+ 
+
+
+
   <!-- start navbar-1 -->
   <nav id="navtwo" class="navbar navbar-expand-lg navbar-dark  bg-primary" style="direction: rtl;">
     <a class="navbar-brand wow pulse" data-wow-duration="1s" data-wow-iteration="200" href="#">معاهد الفراعنه العليا</a>
@@ -121,6 +125,7 @@
            <input type="search"placeholder="Search in website">
     </div>
 </div>
+
   <!-- end navbar -->
   <div class="header">
     <!-- <div id="particles-js"></div>   -->
@@ -167,6 +172,11 @@
     </div>
   </div>
   <!--نهاية الجزء الخاص بكلمه الدكتور -->
+  <h3 class="counter">200450000</h3>
+  <h3 class="counter">2004540000</h3>
+  <h3 class="counter">20045450000</h3>
+  <h3 class="counter">20045450000</h3>
+  <h3 class="counter">900545408888541582000</h3>
 
   <!-- الجزء التعريفي للمعهد-->
   <div class="section-information-univerisrty">
@@ -549,10 +559,25 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/all.js"></script>
   <script src="js/ahmad.js"></script>
+  <script src="js/jquery.waypoints.js"></script>
+  <script src="js/jquery.counterup.js"></script>
+
+
   <script>
     new WOW().init();
   </script>
+  
+<script>
+  jQuery(document).ready(function($) {
+      $('.counter').counterUp({
+          delay:20,
+          time: 8000
+      });
+  });
+</script>
+
   <div id="down"></div>
+
 </body>
 
 
