@@ -19,6 +19,7 @@
 /* box-shadow: 0 0 10px #ff6f61, 0 0 40px #ff6f61, 0 0 80px #ff6f61; */
 /* background-color: yellow; */
 /* box-shadow: 0 0 10px #ff6f61, 0 0 40px #ff6f61, 0 0 80px #ff6f61;  شادو الهوفر */
+/* transform:translate(-50% ,-50%) ;  */
 :root {
   --theme-color: #212121;
   --sections-color: #282828;
@@ -816,8 +817,69 @@ transition: .5s all;
   color:#ffbe0b !important;
 
 }
-/* end-style-footer */
+/* ------------------------------------------------------------------- */
+                   /* end-style-footer  */
+/* --------------------------------------------------------------------- */
+.container-counter{
+ background-color:var(--sections-color);
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 500px;
+  text-align: center;
+ 
+}
 
+.container-counter .row-count{
+width: 100%;
+height: 100% ;
+margin: 0  auto !important;
+
+}
+.container .row .count{
+ 
+  margin: 0 auto !important;
+  border-left:1px solid wheat ;
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(143, 134, 134, 0.3);
+  width: 25% !important;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .row .count .icon-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:  1px solid white;
+  height: 50px;
+  width: 50px;
+  margin: 20px auto;
+  color: rgb(255, 215, 40);
+  text-align: center !important;
+  box-shadow:var(--box-shadow);
+  -moz-box-shadow:inset 11px 9px 9px #000000;
+  -webkit-box-shadow: 11px 9px 9px #000000;
+  box-shadow: 11px 9px 9px #000000;
+}
+.container .row .count .icon-box:hover{
+  -moz-box-shadow:inset 11px 9px 9px #000000;
+  -webkit-box-shadow:inset 11px 9px 9px #000000;
+  box-shadow:inset 11px 9px 9px #000000;
+
+}
+
+.container .row .count .icon-box .f{
+  font-size:30px !important;
+  
+   margin: 0 auto;
+}
+.container .row .count p{
+  margin-top: 30px !important;
+  font-weight:bold;
+  font-size: 35px;
+}
 
 .animsition {
   z-index: 999900000000000;
@@ -828,12 +890,9 @@ transition: .5s all;
   color: #ff6f61;
 }
 
-
-
-
-
-
+/* ------------------------------------------------------------ */
 /* btn slide up  */
+/* ----------------------------------------------------------------- */
 .btn-up-css {
   background-color: rgb(13, 105, 167);
   width: 40px;
@@ -864,9 +923,9 @@ transition: .5s all;
   bottom: 0%;
   border-radius: 10%;
 }
-
-/* btn slide up  */
-
+/* ------------------------------------------------------------------- */
+              /* btn slide up  */
+/* -------------------------------------------------------------------*/
 
 /* ========================================== */
 /* start atyle page taNSEQ  */
@@ -1046,15 +1105,6 @@ transition: .5s all;
 }
 
 /* end stylr page-Expenses  */
-
-
-
-
-
-
-
-
-
 
 
 
