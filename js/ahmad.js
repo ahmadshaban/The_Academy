@@ -1,8 +1,8 @@
 $(window).scroll(function(){
   var sc = $(window).scrollTop();
   if(sc>150){
-   $("#navtwo").addClass("ahmad");
-   
+    $("#navtwo").addClass("ahmad");
+  
      }else{
     $("#navtwo").css('transition','all 1s');
     $("#navtwo").removeClass("ahmad");
