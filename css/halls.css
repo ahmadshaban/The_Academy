@@ -345,7 +345,7 @@ padding: 20px;
 .sec-signin {
   border-top: white solid .5px !important;
   font-size: 20px !important;
-  background-image: url(../pexels-photo-3769118.jpeg);
+  /* background-image: url(../pexels-photo-3769118.jpeg); */
   background-size: cover;
   background-attachment: fixed;
   margin: 5%;
@@ -355,6 +355,7 @@ padding: 20px;
   margin: 0 auto;
 
 }
+
 /* start footer */
 .btn-floating {
   font-size: 30px !important;

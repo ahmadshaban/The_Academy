@@ -631,22 +631,26 @@ h3 {
   -o-border-radius: 5%;
 }
  #contact .content-conatct{
-   background-color: rgba(0, 0, 0, 0.3);
-   width: 90%;
-   min-height: 200px;
-   margin: 0 auto;
-   box-shadow:var(--box-shadow);
-   margin-top: 25px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 70%;
+  margin: 0 auto;
+  box-shadow:var(--box-shadow);
   text-align: center !important;
-   
- }
+  margin-bottom: 15px;
+  margin-top: 30px !important;
+  border-radius: 30;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30;
+  -ms-border-radius: 30;
+  -o-border-radius: 30;
+}
 
 #contact h3 {
   color: var(--font-color);
   font-size: 25px;
   width: 50%;
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 
 
 }
@@ -759,6 +763,7 @@ width: 95%;
   -ms-border-radius: 2%;
   -o-border-radius: 2%;
 }
+
 .sign-in .container {
   width: 100% !important;
   padding: 2%;
@@ -768,7 +773,6 @@ width: 95%;
   border-radius: 3%;
   color: goldenrod;
   text-align: center;
-
 }
 .sign-in .container input {
   text-align: center;
@@ -803,16 +807,71 @@ width: 95%;
 
 /* start style-footer */
 .sec-signin {
-  border-top: white solid .5px !important;
-  font-size: 20px !important;
+  /*border-top: white solid .5px !important;
+  */font-size: 20px !important;
   background-image: url(../pexels-photo-3769118.jpeg);
   background-size: cover;
   background-attachment: fixed;
   margin: 5%;
   width: 100%;
   min-height: 500px;
-  position: relative;
   margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+  transition:1s all ;
+  -webkit-transition:1s all ;
+  -moz-transition:1s all ;
+  -ms-transition:1s all ;
+  -o-transition:1s all ;
+}
+.sec-signin:after{
+  content: "";
+ position: absolute;
+ top: 0%;
+ border: 4px solid blue;
+ bottom: 0%;
+ left: 0%;
+width: 2%;
+height: 20px;
+background-color: rgb(255, 166, 0);
+transition:1s all ;
+-webkit-transition:1s all ;
+-moz-transition:1s all ;
+-ms-transition:1s all ;
+-o-transition:1s all ;
+border-radius: 20%;
+ -webkit-border-radius: 20%;
+ -moz-border-radius: 20%;
+ -ms-border-radius: 20%;
+ -o-border-radius: 20%;
+}
+.sec-signin::before{
+ content: "";
+ position: absolute;
+ top: 0%;
+ border: 4px solid blue;
+ bottom: 0%;
+ right: 0%;
+ width: 2%;
+ height: 20px;
+ background-color: rgb(255, 166, 0);
+ transition:1s all ;
+ -webkit-transition:1s all ;
+ -moz-transition:1s all ;
+ -ms-transition:1s all ;
+ -o-transition:1s all ;
+ float: left !important;
+ border-radius: 20%;
+ -webkit-border-radius: 20%;
+ -moz-border-radius: 20%;
+ -ms-border-radius: 20%;
+ -o-border-radius: 20%;
+}
+.sec-signin:hover:after{
+   width: 100%; 
+}
+.sec-signin:hover::before{
+     width: 100%; 
 
 }
 /* start footer */
