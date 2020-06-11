@@ -1408,23 +1408,23 @@ transition: .5s all;
  padding: 50px;
 }
 .container-staf-member .row-staf div{
-color: goldenrod;
+  color: goldenrod;
   text-align: center;
   margin: 2px;
   margin-bottom: 20px;
   padding: 5px;
   background-color:var(--sections-color);
   box-shadow:var(--box-shadow);
-  border-radius: 10%;
-  -webkit-border-radius: 10%;
-  -moz-border-radius: 10%;
-  -ms-border-radius: 10%;
-  -o-border-radius: 10%;
-  transition: .5s all ;
-  -webkit-transition: .5s all ;
-  -moz-transition: .5s all ;
-  -ms-transition: .5s all ;
-  -o-transition: .5s all ;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  transition: 1s all ;
+  -webkit-transition: 1s all ;
+  -moz-transition: 1s all ;
+  -ms-transition: 1s all ;
+  -o-transition: 1s all ;
 }
 .container-staf-member .row-staf div h5 , span{
   font-size: 25px;
@@ -1433,12 +1433,8 @@ color: goldenrod;
 
 }
 .container-staf-member .row-staf div:hover{
-  border: 2px solid red;
-  transform: scale(1.1);
-  -webkit-transform:scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  border: 1px solid red;
+
 }
 @media (max-width:700px){
   .container-staf-member .row-staf div{
@@ -1446,12 +1442,7 @@ color: goldenrod;
     padding: 20px;
   }
   .container-staf-member .row-staf div:hover{
-    border: 2px solid red;
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
+    border: 1px solid red;
 }
 
 }
