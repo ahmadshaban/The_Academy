@@ -650,7 +650,7 @@ h3 {
   font-size: 25px;
   width: 50%;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 
 
 }
@@ -1379,133 +1379,85 @@ transition: .5s all;
 ========================================================================
  */
 
-.staf {
-  background-color: var(--theme-color);
-  color: var(--font-color);
-}
-
-.staf .table-staf {
-  background-color: var(--sections-color);
-  -webkit-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
-
-}
-
-.staf img {
-  width: 90%;
-  height: 300px;
-}
-
-
-/* ==================================================================== */
-/* start style catousol  page staf*/
-/* *====================================================================== */
-.cta-100 {
-  background-color: var(--sections-color);
-  margin-top: 90px !important;
-  margin-bottom: 90px;
-  color: var(--font-color);
-  -webkit-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
-  width: 98%;
-
-}
-
-.col-md-4 {
-  padding-bottom: 20px;
-}
-
-.white {
-  color: #fff !important;
-}
-
-.mt {
-  float: left;
-  margin-top: -20px;
-  padding-top: 20px;
-}
-
-.bg-blue-ui {
-  background-color: #708198 !important;
-}
-
-figure img {
-  width: 300px;
-}
-
-#blogCarousel {
-  padding-bottom: 100px;
-}
-
-.blog .carousel-indicators {
-  /* left: 0; */
-  /* top: -50px; */
-  /* height: 50%; */
-  margin-bottom: 50px !important;
-}
-
-
-/* The colour of the indicators */
-
-.blog .carousel-indicators li {
-  background: rgb(255, 185, 8);
-  border-radius: 20%;
-  width: 50px;
-  height: 10px;
-}
-
-.blog .carousel-indicators .active {
-  background: var(--main-color);
-}
-
-.item-carousel-blog-block {
-  outline: medium none;
-  padding: 15px;
-}
-
-.item-box-blog {
-  color: var(--font-color) !important;
-  margin-top: 25px;
-  border: 1px solid #dadada;
-  text-align: center;
-  z-index: 4;
-  padding: 20px;
-}
-
-.item-box-blog-image {
-  position: relative;
-}
-
-.item-box-blog-image figure img {
+.section-staf {
+  color: var(--theme-color);
+  background: #2d4594;
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #e8cbc0, #636fa4);
   width: 100%;
-  height: auto;
+  min-height: 700px;
+  border-radius:8%;
+  -webkit-border-radius:8%;
+  -moz-border-radius:8%;
+  -ms-border-radius:8%;
+  -o-border-radius:8%;
 }
-
-.item-box-blog-body {
+.section-staf .content{
+  background-color:var(--sections-color) ;
   padding: 10px;
+  box-shadow:var(--box-shadow);
+}
+ .container-staf-member .row-staf{
+  background-color:var(--sections-color) ;
+  box-shadow:var(--box-shadow) ;
+ display: flex;
+  justify-content: center;
+  justify-content: space-around;
+ align-self: center; 
+ flex-wrap: wrap; 
+ padding: 50px;
+}
+.container-staf-member .row-staf div{
+color: goldenrod;
+  text-align: center;
+  margin: 2px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color:var(--sections-color);
+  box-shadow:var(--box-shadow);
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  transition: .5s all ;
+  -webkit-transition: .5s all ;
+  -moz-transition: .5s all ;
+  -ms-transition: .5s all ;
+  -o-transition: .5s all ;
+}
+.container-staf-member .row-staf div h5 , span{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+}
+.container-staf-member .row-staf div:hover{
+  border: 2px solid red;
+  transform: scale(1.1);
+  -webkit-transform:scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+@media (max-width:700px){
+  .container-staf-member .row-staf div{
+    margin: 10px;
+    padding: 20px;
+  }
+  .container-staf-member .row-staf div:hover{
+    border: 2px solid red;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
 
-.item-heading-blog a h5 {
-  margin: 0;
-  line-height: 1;
-  text-decoration: none;
-  -webkit-transition: color 0.3s;
-  -o-transition: color 0.3s;
-  transition: color 0.3s;
 }
 
-.item-box-blog-heading h3,
-h4,
-h5 {
-  font-size: larger;
-  text-decoration: none !important;
-  color: var(--font-color) !important;
 
-}
 
-/* ==================================================================== */
-/* end style carusol page staf */
-/* ==================================================================== */
 
 
 /* ==================================================================== */
