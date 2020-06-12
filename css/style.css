@@ -975,6 +975,13 @@ transition: .5s all;
    -ms-transition: .5s all ;
    -o-transition: .5s all ;
 }
+
+@media (max-width:500px){
+  .container-counter .row-count .count{
+    width: 80% !important; 
+    padding: 5px;
+  }
+}
 .container-counter .row-count .count:hover{
   border: 2px solid red;
   transform: scale(1.1);
