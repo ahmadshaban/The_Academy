@@ -956,6 +956,7 @@ transition: .5s all;
  -moz-transition: .5s all ;
  -ms-transition: .5s all ;
  -o-transition: .5s all ;
+ padding: 25px;
 }
  .container-counter .row-count .count{
    margin:100px 10px ;
