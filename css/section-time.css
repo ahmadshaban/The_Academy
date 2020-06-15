@@ -213,32 +213,99 @@ background-color: white !important;
 
 
 
-/* start style-footer */
-.sec-signin{
-  color:gold;
-  border-top:white solid .5px !important;
-  font-size: 20px !important;
-  background-color:var(--sections-color);
-  position: relative;
-  margin: 5%;
-}
-.sec-signin h2, h3, h4, h6, h5 ,p {
-  color:gold !important;
 
+/* start style footer  */
+
+.bg-grey {
+  background: #292929;
+  padding: 20px;
+  width: 100%;
+  direction: ltr;
+   min-height: 500px;
+   text-align: center !important;
+
+   
 }
 
-/* start footer */
-.btn-floating {
-  font-size: 30px !important;
-  color: gold !important;
-  font-size: 40px !important;
+.bg-grey .container .row>div{
+  margin: 10px;
+  text-align: center !important;
 }
-.btn-floating :hover{
-color: rgb(0, 200, 236);
- transform: scale(1.1);
- transition: .5s all;
+.bg-grey .container .row .logo-part{
+  padding: 5px;
+  box-shadow: var(--box-shadow) ;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
 }
-.btn{
-  color:black!important;
+
+
+.bg-grey .container .row .info {
+  box-shadow: var(--box-shadow) ;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
 }
-/* end-style-footer */
+.bg-grey .container .row .info h3{
+  margin: 0 !important;
+  font-weight: bolder;
+}
+  
+.bg-grey .container .row .info-2{
+    text-align: center !important;
+    box-shadow: var(--box-shadow);
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.bg-grey .container .row .info-2 h3{
+  margin: 0 !important;
+  font-weight: bolder;
+}
+.bg-grey .container .row .info-2 p{
+  margin: 5px;
+  text-decoration: none;
+  list-style: none;
+}
+.btn-footer {
+           color: grey;
+        
+          text-decoration: none;
+          border: 1px solid;
+          border-radius: 43px;
+          font-size: 13px;
+          padding: 7px 30px;
+          line-height: 47px;
+}
+.btn-footer:hover {      
+  text-decoration: none;      
+}
+
+.social a{
+color: grey;
+font-size: 30px !important;
+padding: 10px 15px;
+background: #3c3c3c;
+display: inline-block;
+}
+.social a:hover{
+     background-color: rgba(0, 0, 0,5);
+     -webkit-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+     transform: scale(1.1);
+     transition:.5s all;
+     -webkit-transition:.5s all;
+     -o-transition:.5s all;
+     -moz-transition: .5s all;
+     -ms-transition:.5s all;
+}
+
+/* end footer  */
+
+
