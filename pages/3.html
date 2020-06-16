@@ -25,136 +25,9 @@
 
 <body id="body" onload="myfunction()">
 
-  <style>
-    /* Colours */
-    /* fonts */
-    body {
-      direction: rtl;
-      font-family: "Assistant", sans-serif;
-    }
+ <style>
 
-    h1,
-    h2,
-    h4,
-    h5,
-    h6 {
-      font-family: "Poppins", sans-serif;
-      text-transform: uppercase;
-    }
-
-    h2 {
-      font-weight: 700;
-    }
-
-    h3 {
-      font-family: "Assistant", sans-serif;
-      font-weight: 300;
-      text-transform: none;
-    }
-
-    p {
-      font-weight: 400;
-    }
-
-    strong {
-      font-weight: 700;
-    }
-
-    /* Utilities */
-    .no-padding {
-      padding: 0 !important;
-    }
-
-    /* width */
-    .container {
-      width: 1080px;
-    }
-
-    /* Table Heading */
-    .pricing-top-heading th {
-      text-align: center;
-      font-weight: 700;
-      font-size: 2rem;
-      width: 33%;
-    }
-
-    .pricing-bottom-heading th {
-      padding: 0 2%;
-      font-weight: 300;
-    }
-
-    .pricing-top-heading .free {
-      background-color: #f26b42;
-      border: 1px solid #f26b42;
-    }
-
-    .pricing-bottom-heading .free {
-      background-color: #f28d6e;
-      border: 1px solid #f28d6e;
-    }
-
-    .pricing-top-heading .basic {
-      background-color: #58c5c7;
-      border: 1px solid #58c5c7;
-    }
-
-    .pricing-bottom-heading .basic {
-      background-color: #7fd1d2;
-      border: 1px solid #7fd1d2;
-    }
-
-    .pricing-top-heading .pro {
-      background-color: #a5c653;
-      border: 1px solid #a5c653;
-    }
-
-    .pricing-bottom-heading .pro {
-      background-color: #b9d17b;
-      border: 1px solid #b9d17b;
-    }
-
-    .pricing-top-heading,
-    .pricing-bottom-heading {
-      color: rgb(17, 3, 3);
-      height: 90px;
-    }
-
-    table thead th {
-      border: 1;
-    }
-
-    /* table */
-    table {
-      width: 100%;
-    }
-
-    .collapsible-section-header {
-      background-color: #309c6a;
-    }
-
-    .collapsible-section-header a {
-      color: #363636;
-      font-weight: 700;
-      text-decoration: none;
-    }
-
-    .collapsible-section-header a:after {
-      content: '\25bc';
-      padding-left: 0.5em;
-    }
-
-    .collapsible-section-header a.collapsed:after {
-      content: '\25ba';
-      padding-left: 0.5em;
-    }
-
-    tbody td {
-      background-color: #7498b6;
-      border: 1px solid #240f99;
-      padding: 1.25rem;
-    }
-  </style>
-
+ </style>
 
 
   <!-- start navbar -->
@@ -246,287 +119,65 @@
   </nav>
   <!-- end navbar -->
 
-  <section class="jumbotron  m-0 bg-light">
-    <div>
-      <div class="col-md-12">
-        <h2>التـــعليـم الالــكــتــروني</h2>
-        <img style="max-width: 200px; " src="./img/group_video.svg" alt="">
-      </div>
-    </div>
+
+<!-- ------------------------------------------------------------------- -->
 
 
 
-    <hr>
-    <h4> تم تجهيز قناة لمعهد نظم المعلومات وأخرى لمعهد السياحة على يوتيوب لعرض المحاضرات للطلبة.<h4>
-        <hr>
-        <div class="row">
 
-          <div class="col-md-6 mt-1">
-            <h5> قناة معهد الفراعنة العالى للحاسب الألي </h5>
-
-            <iframe width="400" height="300" src="https://www.youtube.com/embed/r3PvYCvlvos" frameborder="1"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <a target="_blank" style="color: green !important;"
-              href="https://www.youtube.com/channel/UC9gBH0IzIMT3R2azOpimTIg ">
-              <h5>لينك القناه ع اليوتيوب <span>اضغط هنا</span></h5>
-            </a>
-          </div>
-
-          <div class="col-md-6">
-            <h4>قناة معهد الفراعنة العالى للسياحة والفنادق</h4>
-
-            <iframe width="400" height="300" src="https://www.youtube.com/embed/l_GdMV2MvIA" frameborder="1"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <a target="_blank" style="color: green !important;"
-              href="https://www.youtube.com/channel/UCzu15U65rUXz_EERbSFhlwA/">
-
-              <h5>لينك القناه ع اليوتيوب <span>اضغط هنا</span></h5>
-            </a>
-          </div>
-        </div>
-
-  </section>
+<style>
 
 
-  <!-- ------------------------------------------------------------------- -->
-  <!-- start section videos  -->
-  <div class="jubotron mb-0 mt-0>
-  
-    <div class=" row">
-    <table>
-      <thead>
-        <tr class="pricing-top-heading">
-          <th class="pro">
-            <hr>
-            <h2>التعليم الالكتروني</h2>
-            <hr>
-            <h2> الفيديوهات التعليميه لكل الشعب الدراسية</h2>
-            <hr>
-          </th>
+.sec {
+  position: relative;
+  width: 50%;
+}
 
-        </tr>
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-      </thead>
-      <tbody>
-        <!-- SECTION 1 -->
-        <tr>
-          <td class="collapsible-section-header" colspan="3">
-            <a data-toggle="collapse" href="#collapse_section_one">قسم نظم الملعومات الاداريه </a>
-          </td>
-        </tr>
-        <tr>
-          <td class="no-padding" colspan="3">
-            <div id="collapse_section_one" class="collapse in">
-              <table style="width:100%">
-                <h4> الفرقه الاولي نظم الملعومات الادارية</h4>
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
 
-                <tr>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/diffv6qNaNA" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/mQ8RBmOxF1I" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/UB6eFAVHIJ8" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
+.sec:hover .overlay {
+  opacity: 1;
+}
 
-                </tr>
-                <tr>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/diffv6qNaNA" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/mQ8RBmOxF1I" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/UB6eFAVHIJ8" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
 
-                </tr>
-              </table>
-            </div>
-          </td>
-        </tr>
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
 
-        <!-- SECTION 2 -->
-        <tr>
-          <td class="collapsible-section-header" colspan="3">
-            <a data-toggle="collapse" href="#collapse_section_two"> قسم ادارة الاعمال</a>
-          </td>
-        </tr>
-        <tr>
-          <td class="no-padding" colspan="3">
-            <div id="collapse_section_two" class="collapse in">
-              <table style="width:100%">
-                <tr>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/diffv6qNaNA" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/mQ8RBmOxF1I" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/UB6eFAVHIJ8" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-
-                </tr>
-                <tr>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/diffv6qNaNA" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/mQ8RBmOxF1I" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/UB6eFAVHIJ8" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                </tr>
-
-              </table>
-            </div>
-          </td>
-        </tr>
-
-        <!-- SECTION 4 -->
-        <tr>
-          <td class="collapsible-section-header" colspan="3">
-            <a data-toggle="collapse" href="#collapse_section_three">قسم علوم الحاسب</a>
-          </td>
-        </tr>
-        <tr>
-          <td class="no-padding" colspan="3">
-            <div id="collapse_section_three" class="collapse in">
-              <table style="width:100%">
-                <tr>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/diffv6qNaNA" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/mQ8RBmOxF1I" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/UB6eFAVHIJ8" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-
-                </tr>
-
-                <tr>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/diffv6qNaNA" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/mQ8RBmOxF1I" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/UB6eFAVHIJ8" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-
-                </tr>
-              </table>
-            </div>
-          </td>
-        </tr>
-
-        <!-- SECTION 3 -->
-        <tr>
-          <td class="collapsible-section-header" colspan="3">
-            <a data-toggle="collapse" href="#collapse_section_three">قسم السياحه والفنادق</a>
-          </td>
-        </tr>
-        <tr>
-          <td class="no-padding" colspan="3">
-            <div id="collapse_section_three" class="collapse in">
-              <table style="width:100%">
-                <tr>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/diffv6qNaNA" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/mQ8RBmOxF1I" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/UB6eFAVHIJ8" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-
-                </tr>
-                <tr>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/Fas39C1YpDg" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/jxGeVVK0Lxk" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                  <td>
-                    <iframe width="200" height="200" src="https://www.youtube.com/embed/tuvBy7Pgj9c" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-
-                </tr>
-              </table>
-            </div>
-          </td>
-        </tr>
-
-
-      </tbody>
-    </table>
+<div class="sec">
+  <img src="../pexels-photo-3769118.jpeg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
   </div>
-  </div>
-  <!-- end section videos  -->
-
-
-
-
+</div>
 
 
 

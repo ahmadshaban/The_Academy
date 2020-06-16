@@ -217,23 +217,45 @@ background-color: white !important;
 /* start style footer  */
 
 .bg-grey {
+  position: relative;
   background: #292929;
-  padding: 20px;
+  background-image: url(../pexels-photo-3769118.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   direction: ltr;
-   min-height: 500px;
-   text-align: center !important;
-
-   
+  min-height: 600px;
+  text-align: center !important; 
+  margin: 0;
+  color: goldenrod !important;
+}
+.transparency{
+  position: absolute;
+  width: 100% !important;
+ height: 100% !important;
+  background-color: rgba(0, 0, 0, .7);
 }
 
 .bg-grey .container .row>div{
   margin: 10px;
   text-align: center !important;
+  z-index: 9999;
+  color: goldenrod !important;
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -ms-transition: .5s all;
+  -o-transition: .5s all;
+}
+
+.bg-grey .container .row>div:hover{
+  background-color: rgba(0, 0, 0, .6);
 }
 .bg-grey .container .row .logo-part{
+  background-color: rgba(0, 0, 0, .3);
   padding: 5px;
-  box-shadow: var(--box-shadow) ;
+  border: 1px solid gold;
   border-radius: 5%;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
@@ -243,12 +265,15 @@ background-color: white !important;
 
 
 .bg-grey .container .row .info {
-  box-shadow: var(--box-shadow) ;
+  border: 1px solid gold;
+  background-color: rgba(0, 0, 0, .3);
   border-radius: 5%;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
+  color: goldenrod !important;
+
 }
 .bg-grey .container .row .info h3{
   margin: 0 !important;
@@ -256,13 +281,17 @@ background-color: white !important;
 }
   
 .bg-grey .container .row .info-2{
+  background-color: rgba(0, 0, 0, .3);
+
     text-align: center !important;
-    box-shadow: var(--box-shadow);
+  border: .5px solid gold;
     border-radius: 5%;
     -webkit-border-radius: 5%;
     -moz-border-radius: 5%;
     -ms-border-radius: 5%;
     -o-border-radius: 5%;
+  color: goldenrod !important;
+
 }
 .bg-grey .container .row .info-2 h3{
   margin: 0 !important;
@@ -275,24 +304,35 @@ background-color: white !important;
 }
 .btn-footer {
            color: grey;
-        
           text-decoration: none;
-          border: 1px solid;
+          border: 1px solid goldenrod;
           border-radius: 43px;
           font-size: 13px;
           padding: 7px 30px;
           line-height: 47px;
+          z-index: 9999;
 }
 .btn-footer:hover {      
-  text-decoration: none;      
+  text-decoration: none;   
+  background-color: rgb(93, 129, 163);   
 }
 
+.div-end .social{
+  position: relative !important;
+  z-index: 99999999;
+  color: goldenrod !important;
+
+}
 .social a{
+/* position: relative;  */
 color: grey;
 font-size: 30px !important;
 padding: 10px 15px;
 background: #3c3c3c;
 display: inline-block;
+z-index: 99999999;
+color: goldenrod !important;
+
 }
 .social a:hover{
      background-color: rgba(0, 0, 0,5);
@@ -309,3 +349,44 @@ display: inline-block;
 /* end footer  */
 
 
+
+
+
+
+
+/* ------------------------------------------------------------ */
+      /* btn slide up  */
+/* ----------------------------------------------------------------- */
+.btn-up-css {
+  background-color: rgb(13, 105, 167);
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  position: absolute;
+  position: fixed;
+  z-index: 2000000000;
+  top: 93%;
+  left: 0%;
+  right: 1%;
+  bottom: 0%;
+  border-radius: 10%;
+  padding: 0;
+}
+
+.btn-down-css {
+  background-color: rgb(13, 105, 167);
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  position: absolute;
+  position: fixed;
+  z-index: 2000000000;
+  top: 86%;
+  left: 0%;
+  right: 1%;
+  bottom: 0%;
+  border-radius: 10%;
+}
+/* ------------------------------------------------------------------- */
+              /* btn slide up  */
+/* -------------------------------------------------------------------*/
