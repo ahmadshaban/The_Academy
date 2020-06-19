@@ -111,10 +111,19 @@
   </nav>
   <div class="main">
     <div class="input-group">
-      <a href="./pages/contact.html">تسجيل الدخول <i class="fa fa-user mr-1"></i></a>
-      <button class="btn btn-warning btn-sm " type="submit">search</button>
-      <input type="search" placeholder="Search in website">
+      <a href="../pages/contact.html">تسجيل الدخول <i class="fa fa-user mr-1"></i></a>
+      <button class="openBtn" onclick="openSearch()"><i class="fa fa-search"></i></button>
     </div>
+    <div id="myOverlay" class="overlay">
+      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+      <div class="overlay-content">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
   </div>
   <!-- end navbar -->
   <!-- srart section  -->
@@ -362,8 +371,8 @@
   </section>
   <!-- end-section  -->
 
-   <!-- START CODE FOOTER -->
-   <footer class=" bg-grey">
+  <!-- START CODE FOOTER -->
+  <footer class=" bg-grey">
     <div class="transparency"></div>
     <div class="container">
       <div class="row d-flex justify-content-center align-content-center">
@@ -422,13 +431,13 @@
 
 
 
-    <!-- start btn slide up -->
-    <a class="btn-up-css hvr-icon-spin hvr-spin" href="#down"><i class="mt-2 hvr-icon fa fa-angle-double-up"></i>
-    </a>
-    <!-- start btn slide up -->
-    <a class="btn-down-css hvr-icon-spin" href="#body"><i class="mt-2 hvr-icon fa fa-angle-double-down"></i>
-    </a>
-    <!-- start btn slide up -->
+  <!-- start btn slide up -->
+  <a class="btn-up-css hvr-icon-spin hvr-spin" href="#down"><i class="mt-2 hvr-icon fa fa-angle-double-up"></i>
+  </a>
+  <!-- start btn slide up -->
+  <a class="btn-down-css hvr-icon-spin" href="#body"><i class="mt-2 hvr-icon fa fa-angle-double-down"></i>
+  </a>
+  <!-- start btn slide up -->
 
 
 
@@ -453,22 +462,22 @@
 
 
 
-    <!-- ------------------------------------------------------------------ -->
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/animsition.js"></script>
-    <script src="../js/textillate.js"></script>
-    <script src="../js/lettering.js"></script>
-    <script src="../js/jquery.fittext.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/all.js"></script>
-    <script src="../js/ahmad.js"></script>
-    <script src="../js/wow.min.js"></script>
+  <!-- ------------------------------------------------------------------ -->
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/animsition.js"></script>
+  <script src="../js/textillate.js"></script>
+  <script src="../js/lettering.js"></script>
+  <script src="../js/jquery.fittext.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/all.js"></script>
+  <script src="../js/ahmad.js"></script>
+  <script src="../js/wow.min.js"></script>
 
-    <script>
-      new WOW().init();
-    </script>
-    <div id="down"></div>
+  <script>
+    new WOW().init();
+  </script>
+  <div id="down"></div>
 
 
 </body>

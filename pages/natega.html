@@ -108,10 +108,19 @@
   </nav>
   <div class="main">
     <div class="input-group">
-      <a href="./pages/contact.html">تسجيل الدخول <i class="fa fa-user mr-1"></i></a>
-      <button class="btn btn-warning btn-sm " type="submit">search</button>
-      <input type="search" placeholder="Search in website">
+      <a href="../pages/contact.html">تسجيل الدخول <i class="fa fa-user mr-1"></i></a>
+      <button class="openBtn" onclick="openSearch()"><i class="fa fa-search"></i></button>
     </div>
+    <div id="myOverlay" class="overlay">
+      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+      <div class="overlay-content">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
   </div>
   <!-- end navbar -->
 
@@ -130,7 +139,8 @@
     </div>
 
     <div class="input-search">
-      <p style="direction: ltr;" class="tlt">Type something in the input field to search the table for first names,last names or student-id:</p>
+      <p style="direction: ltr;" class="tlt">Type something in the input field to search the table for first names,last
+        names or student-id:</p>
       <input class="form-control mb-3 fa-1x m-auto" id="myInput" type="text" placeholder="Search..">
 
     </div>

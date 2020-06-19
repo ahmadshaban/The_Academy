@@ -111,10 +111,19 @@
   </nav>
   <div class="main">
     <div class="input-group">
-      <a href="./pages/contact.html">تسجيل الدخول <i class="fa fa-user mr-1"></i></a>
-      <button class="btn btn-warning btn-sm " type="submit">search</button>
-      <input type="search" placeholder="Search in website">
+      <a href="../pages/contact.html">تسجيل الدخول <i class="fa fa-user mr-1"></i></a>
+      <button class="openBtn" onclick="openSearch()"><i class="fa fa-search"></i></button>
     </div>
+    <div id="myOverlay" class="overlay">
+      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+      <div class="overlay-content">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
   </div>
   <!-- end navbar -->
 
@@ -270,7 +279,7 @@
         </p>
 
       </div> <!-- /part3 -->
-       </div> <!-- /nozom -->
+    </div> <!-- /nozom -->
 
 
     <div id="3lom"></div>
@@ -335,7 +344,7 @@
       </div>
 
 
-       </div> <!-- /3slom -->
+    </div> <!-- /3slom -->
 
 
     <div id="adara"></div>
@@ -402,7 +411,7 @@
 
       </p>
 
-         </div> <!-- /adara  -->
+    </div> <!-- /adara  -->
   </section> <!-- /section  -->
 
   <!-- START CODE FOOTER -->

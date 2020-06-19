@@ -21,7 +21,7 @@
 
 
 <!-- start preload -->
- <div class="load">
+<div class="load">
   <h3></h3>
   <div class="container-2">
     <div class="item item-1"></div>
@@ -29,7 +29,7 @@
     <div class="item item-3"></div>
     <div class="item item-4"></div>
   </div>
-</div>   
+</div>
 <!-- start preload -->
 
 <body id="body" onload="myfunction()">
@@ -117,10 +117,20 @@
   <div class="main">
     <div class="input-group">
       <a href="./pages/contact.html">تسجيل الدخول <i class="fa fa-user mr-1"></i></a>
-      <button class="btn btn-warning btn-sm " type="submit">search</button>
-      <input type="search" placeholder="Search in website">
+      <button class="openBtn" onclick="openSearch()"><i class="fa fa-search"></i></button>
     </div>
+    <div id="myOverlay" class="overlay">
+      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+      <div class="overlay-content">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
   </div>
+
   <!-- end navbar -->
 
   <!-- start style header  -->
@@ -220,10 +230,10 @@
         <div class="card-body">
 
           <p class="card-text ">
-            <p> 1- قسم علوم الحاسب. </p>
-            <p> 2- قسم نظم المعلومات الإدارية. </p>
-            <p> 3- قسم إدارة الأعمال. </p>
-            <p> 4- قسم السياحه والفنادق </p>
+          <p> 1- قسم علوم الحاسب. </p>
+          <p> 2- قسم نظم المعلومات الإدارية. </p>
+          <p> 3- قسم إدارة الأعمال. </p>
+          <p> 4- قسم السياحه والفنادق </p>
           </p>
         </div>
       </div>
@@ -319,7 +329,7 @@
 
           <p class="card-text text-white">
             <img class="img-fluid" src="img/section2/adara.JPG" alt="">
-            <p class="card-text text-white">مدة الدراسة أربع سنوات</p>
+          <p class="card-text text-white">مدة الدراسة أربع سنوات</p>
           </p>
         </div>
       </div>
@@ -335,7 +345,7 @@
 
           <p class="card-text text-white">
             <img class="img-fluid" src="img/section2/syaha.JPG" alt="">
-            <p class="card-text text-white">مدة الدراسة أربع سنوات</p>
+          <p class="card-text text-white">مدة الدراسة أربع سنوات</p>
           </p>
         </div>
       </div>
@@ -489,7 +499,7 @@
 
         <div class="row">
           <div class="side">
-            
+
           </div>
           <div class="middle">
             <div class="bar-container">
@@ -497,10 +507,10 @@
             </div>
           </div>
           <div class="side right">
-            
+
           </div>
           <div class="side">
-           
+
           </div>
           <div class="middle">
             <div class="bar-container">
@@ -508,10 +518,10 @@
             </div>
           </div>
           <div class="side right">
-            
+
           </div>
           <div class="side">
-     
+
           </div>
           <div class="middle">
             <div class="bar-container">
@@ -519,10 +529,10 @@
             </div>
           </div>
           <div class="side right">
-           
+
           </div>
           <div class="side">
-            
+
           </div>
           <div class="middle">
             <div class="bar-container">
@@ -530,10 +540,10 @@
             </div>
           </div>
           <div class="side right">
-            
+
           </div>
           <div class="side">
-            
+
           </div>
           <div class="middle">
             <div class="bar-container">
@@ -541,7 +551,7 @@
             </div>
           </div>
           <div class="side right">
-            
+
           </div>
         </div>
 
@@ -659,9 +669,9 @@
         </div>
       </div>
     </div>
-  
+
   </div>
-  
+
 
   <!-- end login form -->
 
@@ -716,7 +726,11 @@
       </div>
     </div>
     <div class="svg">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4C455B" fill-opacity="1" d="M0,128L60,149.3C120,171,240,213,360,197.3C480,181,600,107,720,106.7C840,107,960,181,1080,202.7C1200,224,1320,192,1380,176L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#4C455B" fill-opacity="1"
+          d="M0,128L60,149.3C120,171,240,213,360,197.3C480,181,600,107,720,106.7C840,107,960,181,1080,202.7C1200,224,1320,192,1380,176L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        </path>
+      </svg>
     </div>
   </footer>
   <!-- END CODE FOOTER -->
@@ -763,7 +777,6 @@
       });
     });
   </script>
-
 
 
   <div id="down"></div>
